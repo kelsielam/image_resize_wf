@@ -1,0 +1,200 @@
+- invocation: True
+  version: 3.0
+  start: 2020-08-10T14:19:30.173-07:00
+  duration: 0.069
+  transformation: "word_count"
+  derivation: "ID0000001"
+  resource: "condorpool"
+  wf-label: "harry-potter-text-analysis"
+  wf-stamp: "2020-08-10T21:18:37+00:00"
+  interface: eth0
+  hostaddr: 172.17.0.2
+  hostname: f451b26bdf40
+  pid: 62196
+  uid: 550
+  user: scitech
+  gid: 808
+  group: scitech-group
+  umask: 0o0022
+  mainjob:
+    start: 2020-08-10T14:19:30.177-07:00
+    duration: 0.065
+    pid: 62197
+    usage:
+      utime: 0.059
+      stime: 0.006
+      maxrss: 10464
+      minflt: 1637
+      majflt: 0
+      nswap: 0
+      inblock: 0
+      outblock: 56
+      msgsnd: 0
+      msgrcv: 0
+      nsignals: 0
+      nvcsw: 1
+      nivcsw: 13
+    status:
+      raw: 0
+      regular_exitcode: 0
+    executable:
+      file_name: /var/lib/condor/execute/dir_62047/word_count
+      mode: 0o100755
+      size: 493
+      inode: 3149700
+      nlink: 1
+      blksize: 4096
+      blocks: 8
+      mtime: 2020-08-10T14:19:28-07:00
+      atime: 2020-08-10T14:19:30-07:00
+      ctime: 2020-08-10T14:19:29-07:00
+      uid: 550
+      user: scitech
+      gid: 808
+      group: scitech-group
+    argument_vector:
+    procs:
+  jobids:
+    condor: 99.0
+  cwd: /var/lib/condor/execute/dir_62047
+  usage:
+    utime: 0.001
+    stime: 0.004
+    maxrss: 2316
+    minflt: 226
+    majflt: 0
+    nswap: 0
+    inblock: 0
+    outblock: 0
+    msgsnd: 0
+    msgrcv: 0
+    nsignals: 0
+    nvcsw: 1
+    nivcsw: 0
+  machine:
+    page-size: 4096
+    uname_system: linux
+    uname_nodename: f451b26bdf40
+    uname_release: 4.19.76-linuxkit
+    uname_machine: x86_64
+    ram_total: 2039848
+    ram_free: 376188
+    ram_shared: 428
+    ram_buffer: 217760
+    swap_total: 1048572
+    swap_free: 1041648
+    cpu_count: 2
+    cpu_speed: 1600
+    cpu_vendor: GenuineIntel
+    cpu_model: Intel(R) Core(TM) i5-8210Y CPU @ 1.60GHz
+    load_min1: 0.68
+    load_min5: 0.39
+    load_min15: 0.23
+    procs_total: 28
+    procs_running: 1
+    procs_sleeping: 20
+    procs_zombie: 7
+    procs_vmsize: 4020544
+    procs_rss: 619112
+    task_total: 67
+    task_running: 1
+    task_sleeping: 59
+    task_zombie: 7
+  files:
+    wc.txt:
+      lfn: "wc.txt"
+      file_name: /var/lib/condor/execute/dir_62047/wc.txt
+      mode: 0o100644
+      size: 28001
+      inode: 3150710
+      nlink: 1
+      blksize: 4096
+      blocks: 56
+      mtime: 2020-08-10T14:19:30-07:00
+      atime: 2020-08-10T14:19:30-07:00
+      ctime: 2020-08-10T14:19:30-07:00
+      uid: 550
+      user: scitech
+      gid: 808
+      group: scitech-group
+      output: True
+      sha256: 721937dbf86a1b110bc898fdbc35c8a31eac176a658bcb1f8b9411356f6ca860
+      checksum_timing: 0.00
+    stdin:
+      file_name: /dev/null
+      mode: 0o20666
+      size: 0
+      inode: 24534
+      nlink: 1
+      blksize: 4096
+      blocks: 0
+      mtime: 2020-08-06T16:22:39-07:00
+      atime: 2020-08-06T16:22:39-07:00
+      ctime: 2020-08-06T16:22:39-07:00
+      uid: 0
+      user: root
+      gid: 0
+      group: root
+    stdout:
+      temporary_name: /var/lib/condor/execute/dir_62047/ks.out.VWTHTn
+      descriptor: 3
+      mode: 0o100600
+      size: 0
+      inode: 3150705
+      nlink: 1
+      blksize: 4096
+      blocks: 0
+      mtime: 2020-08-10T14:19:30-07:00
+      atime: 2020-08-10T14:19:30-07:00
+      ctime: 2020-08-10T14:19:30-07:00
+      uid: 550
+      user: scitech
+      gid: 808
+      group: scitech-group
+    stderr:
+      temporary_name: /var/lib/condor/execute/dir_62047/ks.err.wtsVTn
+      descriptor: 4
+      mode: 0o100600
+      size: 0
+      inode: 3150707
+      nlink: 1
+      blksize: 4096
+      blocks: 0
+      mtime: 2020-08-10T14:19:30-07:00
+      atime: 2020-08-10T14:19:30-07:00
+      ctime: 2020-08-10T14:19:30-07:00
+      uid: 550
+      user: scitech
+      gid: 808
+      group: scitech-group
+    metadata:
+      temporary_name: /var/lib/condor/execute/dir_62047/ks.meta.avp9Tn
+      descriptor: 5
+      mode: 0o100600
+      size: 0
+      inode: 3150708
+      nlink: 1
+      blksize: 4096
+      blocks: 0
+      mtime: 2020-08-10T14:19:30-07:00
+      atime: 2020-08-10T14:19:30-07:00
+      ctime: 2020-08-10T14:19:30-07:00
+      uid: 550
+      user: scitech
+      gid: 808
+      group: scitech-group
+
+---------------pegasus-multipart
+- integrity_verification_attempts:
+  - lfn: "hp.txt"
+    pfn: "hp.txt"
+    sha256: dc08ff16d929b294c38dd213732cd66b990a41a68f78228d6f5861e2357fbc04
+    success: True
+  - lfn: "word_count"
+    pfn: "word_count"
+    sha256: ab6a43f80194a8f71e490cbafed714c5e146356247933c5a063ac72396924ec0
+    success: True
+- integrity_summary:
+    succeeded: 2
+    failed: 0
+    duration: 0.025

@@ -1,0 +1,18 @@
+x-pegasus: {apiLang: python, createdBy: scitech, createdOn: '08-14-20T18:26:01Z'}
+pegasus: '5.0'
+name: image_resize_wf
+jobs:
+- type: job
+  name: image_resize
+  id: ID0000001
+  arguments: []
+  uses:
+  - {lfn: image_1.jpeg, type: output, stageOut: true, registerReplica: true}
+  - {lfn: image_0.jpeg, type: output, stageOut: true, registerReplica: true}
+  - {lfn: img2.jpeg, type: input}
+  - {lfn: img1.jpeg, type: input}
+  - {lfn: image_2.jpeg, type: output, stageOut: true, registerReplica: true}
+  - {lfn: image_3.jpeg, type: output, stageOut: true, registerReplica: true}
+  - {lfn: img3.jpeg, type: input}
+  - {lfn: img.jpeg, type: input}
+jobDependencies: []

@@ -1,0 +1,49 @@
+[
+ { "type": "transfer",
+   "linkage": "output",
+   "lfn": "image_2.jpeg",
+   "id": 1,
+   "verify_checksum_remote": true,
+   "src_urls": [
+     { "site_label": "local", "url": "file:////home/scitech/shared-data/sample-images-wf/wf-scratch/LOCAL/scitech/pegasus/image_resize_wf/run0002/./image_2.jpeg" }
+   ],
+   "dest_urls": [
+     { "site_label": "local", "url": "file:////home/scitech/shared-data/sample-images-wf/wf-output/image_2.jpeg" }
+   ] }
+ ,
+ { "type": "transfer",
+   "linkage": "output",
+   "lfn": "image_3.jpeg",
+   "id": 2,
+   "verify_checksum_remote": true,
+   "src_urls": [
+     { "site_label": "local", "url": "file:////home/scitech/shared-data/sample-images-wf/wf-scratch/LOCAL/scitech/pegasus/image_resize_wf/run0002/./image_3.jpeg" }
+   ],
+   "dest_urls": [
+     { "site_label": "local", "url": "file:////home/scitech/shared-data/sample-images-wf/wf-output/image_3.jpeg" }
+   ] }
+ ,
+ { "type": "transfer",
+   "linkage": "output",
+   "lfn": "image_0.jpeg",
+   "id": 3,
+   "verify_checksum_remote": true,
+   "src_urls": [
+     { "site_label": "local", "url": "file:////home/scitech/shared-data/sample-images-wf/wf-scratch/LOCAL/scitech/pegasus/image_resize_wf/run0002/./image_0.jpeg" }
+   ],
+   "dest_urls": [
+     { "site_label": "local", "url": "file:////home/scitech/shared-data/sample-images-wf/wf-output/image_0.jpeg" }
+   ] }
+ ,
+ { "type": "transfer",
+   "linkage": "output",
+   "lfn": "image_1.jpeg",
+   "id": 4,
+   "verify_checksum_remote": true,
+   "src_urls": [
+     { "site_label": "local", "url": "file:////home/scitech/shared-data/sample-images-wf/wf-scratch/LOCAL/scitech/pegasus/image_resize_wf/run0002/./image_1.jpeg" }
+   ],
+   "dest_urls": [
+     { "site_label": "local", "url": "file:////home/scitech/shared-data/sample-images-wf/wf-output/image_1.jpeg" }
+   ] }
+]

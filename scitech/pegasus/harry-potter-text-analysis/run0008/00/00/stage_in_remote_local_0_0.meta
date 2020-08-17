@@ -1,0 +1,14 @@
+[
+  {
+    "_id": "word_count",
+    "_type": "file",
+    "_attributes": {
+      "user": "scitech",
+      "size": "493",
+      "ctime": "2020-08-10T21:18:31",
+      "checksum.type": "sha256",
+      "checksum.value": "ab6a43f80194a8f71e490cbafed714c5e146356247933c5a063ac72396924ec0",
+      "checksum.timing": "0.054"
+    }
+  }
+]

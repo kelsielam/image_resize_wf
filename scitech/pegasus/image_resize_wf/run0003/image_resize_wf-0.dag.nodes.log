@@ -1,0 +1,193 @@
+000 (114.000.000) 08/14 18:26:21 Job submitted from host: <127.0.0.1:9618?addrs=127.0.0.1-9618&noUDP&sock=246_5063_4>
+    DAG Node: create_dir_image_resize_wf_0_local
+    pool:local
+...
+001 (114.000.000) 08/14 18:26:27 Job executing on host: <127.0.0.1:9618?addrs=127.0.0.1-9618&noUDP&sock=4033_5cfd_2>
+...
+005 (114.000.000) 08/14 18:26:29 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	0  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+	0  -  Total Bytes Sent By Job
+	0  -  Total Bytes Received By Job
+...
+016 (114.000.000) 08/14 18:26:31 POST Script terminated.
+	(1) Normal termination (return value 0)
+    DAG Node: create_dir_image_resize_wf_0_local
+...
+000 (115.000.000) 08/14 18:26:41 Job submitted from host: <127.0.0.1:9618?addrs=127.0.0.1-9618&noUDP&sock=246_5063_4>
+    DAG Node: stage_in_remote_local_0_0
+    pool:local
+...
+000 (116.000.000) 08/14 18:26:41 Job submitted from host: <127.0.0.1:9618?addrs=127.0.0.1-9618&noUDP&sock=246_5063_4>
+    DAG Node: stage_in_local_local_0_0
+    pool:local
+...
+001 (115.000.000) 08/14 18:26:42 Job executing on host: <127.0.0.1:9618?addrs=127.0.0.1-9618&noUDP&sock=4033_5cfd_3>
+...
+001 (116.000.000) 08/14 18:26:42 Job executing on host: <127.0.0.1:9618?addrs=127.0.0.1-9618&noUDP&sock=4033_5cfd_4>
+...
+005 (115.000.000) 08/14 18:26:45 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	0  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+	0  -  Total Bytes Sent By Job
+	0  -  Total Bytes Received By Job
+...
+005 (116.000.000) 08/14 18:26:46 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	0  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+	0  -  Total Bytes Sent By Job
+	0  -  Total Bytes Received By Job
+...
+016 (115.000.000) 08/14 18:26:47 POST Script terminated.
+	(1) Normal termination (return value 0)
+    DAG Node: stage_in_remote_local_0_0
+...
+016 (116.000.000) 08/14 18:26:47 POST Script terminated.
+	(1) Normal termination (return value 0)
+    DAG Node: stage_in_local_local_0_0
+...
+000 (117.000.000) 08/14 18:26:57 Job submitted from host: <127.0.0.1:9618?addrs=127.0.0.1-9618&noUDP&sock=246_5063_4>
+    DAG Node: image_resize_ID0000001
+    pool:condorpool
+...
+001 (117.000.000) 08/14 18:27:03 Job executing on host: <127.0.0.1:9618?addrs=127.0.0.1-9618&noUDP&sock=246_5063_5>
+...
+005 (117.000.000) 08/14 18:27:06 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	41411  -  Run Bytes Sent By Job
+	10821178  -  Run Bytes Received By Job
+	41411  -  Total Bytes Sent By Job
+	10821178  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :     0.26        1         1 
+	   Disk (KB)            : 64604       12500  25401696 
+	   Memory (MB)          :     0           1       996 
+...
+016 (117.000.000) 08/14 18:27:07 POST Script terminated.
+	(1) Normal termination (return value 0)
+    DAG Node: image_resize_ID0000001
+...
+000 (118.000.000) 08/14 18:27:17 Job submitted from host: <127.0.0.1:9618?addrs=127.0.0.1-9618&noUDP&sock=246_5063_4>
+    DAG Node: clean_up_local_level_3_0
+    pool:local
+...
+000 (119.000.000) 08/14 18:27:17 Job submitted from host: <127.0.0.1:9618?addrs=127.0.0.1-9618&noUDP&sock=246_5063_4>
+    DAG Node: stage_out_local_local_0_0
+    pool:local
+...
+001 (119.000.000) 08/14 18:27:21 Job executing on host: <127.0.0.1:9618?addrs=127.0.0.1-9618&noUDP&sock=4033_5cfd_6>
+...
+001 (118.000.000) 08/14 18:27:21 Job executing on host: <127.0.0.1:9618?addrs=127.0.0.1-9618&noUDP&sock=4033_5cfd_7>
+...
+005 (119.000.000) 08/14 18:27:26 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	0  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+	0  -  Total Bytes Sent By Job
+	0  -  Total Bytes Received By Job
+...
+016 (119.000.000) 08/14 18:27:28 POST Script terminated.
+	(1) Normal termination (return value 0)
+    DAG Node: stage_out_local_local_0_0
+...
+005 (118.000.000) 08/14 18:27:32 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	0  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+	0  -  Total Bytes Sent By Job
+	0  -  Total Bytes Received By Job
+...
+000 (120.000.000) 08/14 18:27:37 Job submitted from host: <127.0.0.1:9618?addrs=127.0.0.1-9618&noUDP&sock=246_5063_4>
+    DAG Node: clean_up_local_level_4_0
+    pool:local
+...
+000 (121.000.000) 08/14 18:27:37 Job submitted from host: <127.0.0.1:9618?addrs=127.0.0.1-9618&noUDP&sock=246_5063_4>
+    DAG Node: register_local_0_0
+    pool:local
+...
+016 (118.000.000) 08/14 18:27:38 POST Script terminated.
+	(1) Normal termination (return value 0)
+    DAG Node: clean_up_local_level_3_0
+...
+001 (120.000.000) 08/14 18:27:42 Job executing on host: <127.0.0.1:9618?addrs=127.0.0.1-9618&noUDP&sock=4033_5cfd_8>
+...
+001 (121.000.000) 08/14 18:27:42 Job executing on host: <127.0.0.1:9618?addrs=127.0.0.1-9618&noUDP&sock=4033_5cfd_9>
+...
+005 (121.000.000) 08/14 18:27:46 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	0  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+	0  -  Total Bytes Sent By Job
+	0  -  Total Bytes Received By Job
+...
+016 (121.000.000) 08/14 18:27:47 POST Script terminated.
+	(1) Normal termination (return value 0)
+    DAG Node: register_local_0_0
+...
+005 (120.000.000) 08/14 18:27:50 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	0  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+	0  -  Total Bytes Sent By Job
+	0  -  Total Bytes Received By Job
+...
+016 (120.000.000) 08/14 18:27:52 POST Script terminated.
+	(1) Normal termination (return value 0)
+    DAG Node: clean_up_local_level_4_0
+...
+000 (122.000.000) 08/14 18:28:03 Job submitted from host: <127.0.0.1:9618?addrs=127.0.0.1-9618&noUDP&sock=246_5063_4>
+    DAG Node: cleanup_image_resize_wf_0_local
+    pool:local
+...
+001 (122.000.000) 08/14 18:28:04 Job executing on host: <127.0.0.1:9618?addrs=127.0.0.1-9618&noUDP&sock=4033_5cfd_10>
+...
+005 (122.000.000) 08/14 18:28:06 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	0  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+	0  -  Total Bytes Sent By Job
+	0  -  Total Bytes Received By Job
+...
+016 (122.000.000) 08/14 18:28:08 POST Script terminated.
+	(1) Normal termination (return value 0)
+    DAG Node: cleanup_image_resize_wf_0_local
+...

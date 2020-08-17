@@ -1,0 +1,43 @@
+{
+  "client": "pegasus-plan",
+  "version": "5.0.0dev",
+  "wf_api": "python",
+  "type": "error",
+  "start_time": 1.597454078973E9,
+  "end_time": 1.597454082916E9,
+  "duration": 3.943,
+  "exitcode": 1,
+  "root_wf_uuid": "e43182a0-80fb-415e-bf67-34daa847dfd1",
+  "wf_uuid": "e43182a0-80fb-415e-bf67-34daa847dfd1",
+  "data_config": "condorio",
+  "planner_args": "--output-sites local --cleanup inplace --submit workflow.yml ",
+  "uses_pmc": false,
+  "wf_metrics": {
+    "compute_tasks": 1,
+    "dax_tasks": 0,
+    "dag_tasks": 0,
+    "total_tasks": 1,
+    "deleted_tasks": 0,
+    "dax_input_files": 4,
+    "dax_inter_files": 0,
+    "dax_output_files": 4,
+    "dax_total_files": 8,
+    "compute_jobs": 1,
+    "clustered_jobs": 0,
+    "si_tx_jobs": 2,
+    "so_tx_jobs": 1,
+    "inter_tx_jobs": 0,
+    "reg_jobs": 1,
+    "cleanup_jobs": 3,
+    "create_dir_jobs": 1,
+    "dax_jobs": 0,
+    "dag_jobs": 0,
+    "chmod_jobs": 0,
+    "total_jobs": 9
+  },
+  "app_metrics": {
+    "name": "image_resize_wf"
+  },
+  "error": "java.lang.RuntimeException: Unable to generate code\n\tat edu.isi.pegasus.planner.client.CPlanner.executeCommand(CPlanner.java:621)\n\tat edu.isi.pegasus.planner.client.CPlanner.executeCommand(CPlanner.java:318)\n\tat edu.isi.pegasus.planner.client.CPlanner.main(CPlanner.java:205)\nCaused by: java.lang.RuntimeException: Condor File Transfers don\u0027t support deep LFN\u0027s.  The input file Images/img2.jpeg for job image_resize_ID0000001 has a file separator. Set the property pegasus.data.configuration to nonsharedfs .\n\tat edu.isi.pegasus.planner.transfer.sls.Condor.sanityCheckForDeepLFN(Condor.java:357)\n\tat edu.isi.pegasus.planner.transfer.sls.Condor.modifyJobForWorkerNodeExecution(Condor.java:280)\n\tat edu.isi.pegasus.planner.code.gridstart.PegasusLite.wrapJobWithPegasusLite(PegasusLite.java:1084)\n\tat edu.isi.pegasus.planner.code.gridstart.PegasusLite.enableForWorkerNodeExecution(PegasusLite.java:419)\n\tat edu.isi.pegasus.planner.code.gridstart.PegasusLite.enable(PegasusLite.java:377)\n\tat edu.isi.pegasus.planner.code.generator.condor.CondorGenerator.gridstart(CondorGenerator.java:1729)\n\tat edu.isi.pegasus.planner.code.generator.condor.CondorGenerator.applyStyle(CondorGenerator.java:1544)\n\tat edu.isi.pegasus.planner.code.generator.condor.CondorGenerator.generateCode(CondorGenerator.java:596)\n\tat edu.isi.pegasus.planner.code.generator.condor.CondorGenerator.generateCode(CondorGenerator.java:474)\n\tat edu.isi.pegasus.planner.client.CPlanner.executeCommand(CPlanner.java:618)\n\t... 2 more\n"
+}
+

@@ -1,0 +1,16 @@
+2020-08-09 23:54:18: PegasusLite: version 5.0.0dev
+2020-08-09 23:54:18: Executing on host f451b26bdf40 IP=172.18.0.1
+
+########################[Pegasus Lite] Setting up workdir ########################
+2020-08-09 23:54:18: Not creating a new work directory as it is already set to /var/lib/condor/execute/dir_48633
+
+##############[Pegasus Lite] Figuring out the worker package to use ##############
+2020-08-09 23:54:18: The job contained a Pegasus worker package
+
+##################### Setting the xbit for executables staged #####################
+
+##################### Checking file integrity for input files #####################
+
+######################[Pegasus Lite] Executing the user task ######################
+2020-08-09 23:54:19: User task failed with exitcode 1
+PegasusLite: exitcode 1

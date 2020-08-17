@@ -1,0 +1,9 @@
+{"name": ".//00/00/create_dir_image_resize_wf_0_local.out", "timestamp": "2020-08-14T18:26:31.514448", "exitcode": 0, "app_exitcode": 0, "retry": 0, "std_out": "", "std_err": ""}
+{"name": ".//00/00/stage_in_remote_local_0_0.out", "timestamp": "2020-08-14T18:26:47.517468", "exitcode": 0, "app_exitcode": 0, "retry": 0, "std_out": "", "std_err": ""}
+{"name": ".//00/00/stage_in_local_local_0_0.out", "timestamp": "2020-08-14T18:26:47.591090", "exitcode": 0, "app_exitcode": 0, "retry": 0, "std_out": "", "std_err": ""}
+{"name": ".//00/00/image_resize_ID0000001.out", "timestamp": "2020-08-14T18:27:07.404291", "exitcode": 0, "app_exitcode": 0, "retry": 0, "std_out": "", "std_err": ""}
+{"name": ".//00/00/stage_out_local_local_0_0.out", "timestamp": "2020-08-14T18:27:28.178408", "exitcode": 0, "app_exitcode": 0, "retry": 0, "std_out": "", "std_err": ""}
+{"name": ".//00/00/clean_up_local_level_3_0.out", "timestamp": "2020-08-14T18:27:37.897579", "exitcode": 0, "app_exitcode": 0, "retry": 0, "std_out": "", "std_err": ""}
+{"name": ".//00/00/register_local_0_0.out", "timestamp": "2020-08-14T18:27:47.343041", "exitcode": 0, "app_exitcode": 0, "retry": 0, "std_out": "", "std_err": ""}
+{"name": ".//00/00/clean_up_local_level_4_0.out", "timestamp": "2020-08-14T18:27:52.782229", "exitcode": 0, "app_exitcode": 0, "retry": 0, "std_out": "", "std_err": ""}
+{"name": ".//00/00/cleanup_image_resize_wf_0_local.out", "timestamp": "2020-08-14T18:28:08.593406", "exitcode": 0, "app_exitcode": 0, "retry": 0, "std_out": "", "std_err": ""}

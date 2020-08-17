@@ -1,0 +1,15 @@
+x-pegasus: {apiLang: python, createdBy: scitech, createdOn: '08-14-20T18:05:32Z'}
+pegasus: '5.0'
+replicas:
+- lfn: Images/Unknown-1.jpeg
+  pfns:
+  - {site: local, pfn: /home/scitech/shared-data/sample-images-wf/Images/Unknown-1.jpeg}
+- lfn: Images/Unknown-3.jpeg
+  pfns:
+  - {site: local, pfn: /home/scitech/shared-data/sample-images-wf/Images/Unknown-3.jpeg}
+- lfn: Images/Unknown-2.jpeg
+  pfns:
+  - {site: local, pfn: /home/scitech/shared-data/sample-images-wf/Images/Unknown-2.jpeg}
+- lfn: Images/Unknown.jpeg
+  pfns:
+  - {site: local, pfn: /home/scitech/shared-data/sample-images-wf/Images/Unknown.jpeg}

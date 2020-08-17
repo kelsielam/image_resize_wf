@@ -1,0 +1,185 @@
+- invocation: True
+  version: 3.0
+  start: 2020-08-10T13:32:15.200-07:00
+  duration: 3.047
+  transformation: "pegasus::transfer"
+  derivation: "null"
+  resource: "local"
+  wf-label: "harry-potter-text-analysis"
+  wf-stamp: "2020-08-10T20:30:46+00:00"
+  interface: eth0
+  hostaddr: 172.17.0.2
+  hostname: f451b26bdf40
+  pid: 59950
+  uid: 550
+  user: scitech
+  gid: 808
+  group: scitech-group
+  umask: 0o0022
+  mainjob:
+    start: 2020-08-10T13:32:15.208-07:00
+    duration: 3.038
+    pid: 59953
+    usage:
+      utime: 0.391
+      stime: 0.140
+      maxrss: 17704
+      minflt: 18659
+      majflt: 0
+      nswap: 0
+      inblock: 144
+      outblock: 32
+      msgsnd: 0
+      msgrcv: 0
+      nsignals: 0
+      nvcsw: 218
+      nivcsw: 514
+    status:
+      raw: 0
+      regular_exitcode: 0
+    executable:
+      file_name: /home/scitech/pegasus/dist/pegasus-5.0.0dev/bin/pegasus-transfer
+      mode: 0o100755
+      size: 2253
+      inode: 3414794
+      nlink: 1
+      blksize: 4096
+      blocks: 8
+      mtime: 2020-08-06T16:21:52-07:00
+      atime: 2020-08-06T16:21:52-07:00
+      ctime: 2020-08-06T16:22:05-07:00
+      uid: 550
+      user: scitech
+      gid: 808
+      group: scitech-group
+    argument_vector:
+      - "--threads"
+      - "2"
+    procs:
+  jobids:
+    condor: 89.0
+  cwd: /var/lib/condor/spool/local_univ_execute/dir_59940
+  usage:
+    utime: 0.002
+    stime: 0.006
+    maxrss: 2332
+    minflt: 262
+    majflt: 0
+    nswap: 0
+    inblock: 0
+    outblock: 0
+    msgsnd: 0
+    msgrcv: 0
+    nsignals: 0
+    nvcsw: 4
+    nivcsw: 25
+  machine:
+    page-size: 4096
+    uname_system: linux
+    uname_nodename: f451b26bdf40
+    uname_release: 4.19.76-linuxkit
+    uname_machine: x86_64
+    ram_total: 2039848
+    ram_free: 335068
+    ram_shared: 428
+    ram_buffer: 213864
+    swap_total: 1048572
+    swap_free: 1041648
+    cpu_count: 2
+    cpu_speed: 1600
+    cpu_vendor: GenuineIntel
+    cpu_model: Intel(R) Core(TM) i5-8210Y CPU @ 1.60GHz
+    load_min1: 0.43
+    load_min5: 0.28
+    load_min15: 0.21
+    procs_total: 34
+    procs_running: 3
+    procs_sleeping: 24
+    procs_zombie: 6
+    procs_vmsize: 4343808
+    procs_rss: 773668
+    task_total: 75
+    task_running: 3
+    task_sleeping: 66
+    task_zombie: 6
+  files:
+    stdin:
+      descriptor_number: 0
+      mode: 0o10600
+      size: 0
+      inode: 563900
+      nlink: 1
+      blksize: 4096
+      blocks: 0
+      mtime: 2020-08-10T13:32:15-07:00
+      atime: 2020-08-10T13:32:15-07:00
+      ctime: 2020-08-10T13:32:15-07:00
+      uid: 550
+      user: scitech
+      gid: 808
+      group: scitech-group
+    stdout:
+      temporary_name: /var/lib/condor/spool/local_univ_execute/dir_59940/ks.out.T8epta
+      descriptor: 3
+      mode: 0o100600
+      size: 1811
+      inode: 3278410
+      nlink: 1
+      blksize: 4096
+      blocks: 8
+      mtime: 2020-08-10T13:32:18-07:00
+      atime: 2020-08-10T13:32:15-07:00
+      ctime: 2020-08-10T13:32:18-07:00
+      uid: 550
+      user: scitech
+      gid: 808
+      group: scitech-group
+      data_truncated: false
+      data: |
+        2020-08-10 13:32:15,699    INFO:  Reading URL pairs from stdin
+        2020-08-10 13:32:15,700    INFO:  1 transfers loaded
+        2020-08-10 13:32:15,701    INFO:  PATH=/home/scitech/pegasus/dist/pegasus-5.0.0dev/bin:/usr/local/bin:/usr/bin:/bin:/usr/bin:/usr/local/bin:/opt/local/bin:/usr/sbin
+        2020-08-10 13:32:15,701    INFO:  LD_LIBRARY_PATH=
+        2020-08-10 13:32:15,888    INFO:  --------------------------------------------------------------------------------
+        2020-08-10 13:32:15,888    INFO:  Starting transfers - attempt 1
+        2020-08-10 13:32:17,930    INFO:  /bin/cp -f -R -L '//home/scitech/shared-data/sample-text-analysis-wf/wf-scratch/LOCAL/scitech/pegasus/harry-potter-text-analysis/run0007/./wc.txt' '//home/scitech/shared-data/sample-text-analysis-wf/wf-output/wc.txt'
+        2020-08-10 13:32:17,961    INFO:  Tool found: pegasus-integrity   Version: N/A   Path: /home/scitech/pegasus/dist/pegasus-5.0.0dev/bin/pegasus-integrity
+        2020-08-10 13:32:17,962    INFO:  /home/scitech/pegasus/dist/pegasus-5.0.0dev/bin/pegasus-integrity --verify="wc.txt=//home/scitech/shared-data/sample-text-analysis-wf/wf-output/wc.txt"
+        2020-08-10 13:32:18,219    INFO:  --------------------------------------------------------------------------------
+        2020-08-10 13:32:18,219    INFO:  @@@MONITORING_PAYLOAD - START@@@{"ts": 1597091538, "monitoring_event": "int.metric", "payload": [{"event": "check", "file_type": "output", "succeeded": 1, "failed": 0, "duration": "0.256"}]}@@@MONITORING_PAYLOAD - END@@@
+        2020-08-10 13:32:18,220    INFO:  Stats: Total 1 transfers, 27.3 KB transferred in 3 seconds. Rate: 10.8 KB/s (86.4 Kb/s)
+        2020-08-10 13:32:18,220    INFO:         Between sites local->local : 1 transfers, 27.3 KB transferred in 3 seconds. Rate: 10.8 KB/s (86.4 Kb/s)
+        2020-08-10 13:32:18,220    INFO:  All transfers completed successfully.
+        
+    stderr:
+      temporary_name: /var/lib/condor/spool/local_univ_execute/dir_59940/ks.err.6qS8vU
+      descriptor: 4
+      mode: 0o100600
+      size: 0
+      inode: 3278411
+      nlink: 1
+      blksize: 4096
+      blocks: 0
+      mtime: 2020-08-10T13:32:15-07:00
+      atime: 2020-08-10T13:32:15-07:00
+      ctime: 2020-08-10T13:32:15-07:00
+      uid: 550
+      user: scitech
+      gid: 808
+      group: scitech-group
+    metadata:
+      temporary_name: /var/lib/condor/spool/local_univ_execute/dir_59940/ks.meta.OZLWyE
+      descriptor: 5
+      mode: 0o100600
+      size: 0
+      inode: 3278412
+      nlink: 1
+      blksize: 4096
+      blocks: 0
+      mtime: 2020-08-10T13:32:15-07:00
+      atime: 2020-08-10T13:32:15-07:00
+      ctime: 2020-08-10T13:32:15-07:00
+      uid: 550
+      user: scitech
+      gid: 808
+      group: scitech-group

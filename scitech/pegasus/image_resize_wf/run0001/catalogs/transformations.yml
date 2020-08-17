@@ -1,0 +1,6 @@
+x-pegasus: {apiLang: python, createdBy: scitech, createdOn: '08-14-20T18:05:43Z'}
+pegasus: '5.0'
+transformations:
+- name: image_resize
+  sites:
+  - {name: local, pfn: /home/scitech/shared-data/sample-images-wf/img_resize.py, type: stageable}

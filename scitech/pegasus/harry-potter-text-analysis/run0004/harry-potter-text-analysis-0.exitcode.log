@@ -1,0 +1,11 @@
+{"name": ".//00/00/create_dir_harry-potter-text-analysis_0_local.out", "timestamp": "2020-08-09T23:53:21.150315", "exitcode": 0, "app_exitcode": 0, "retry": 0, "std_out": "", "std_err": ""}
+{"name": ".//00/00/stage_in_remote_local_1_0.out", "timestamp": "2020-08-09T23:53:41.089749", "exitcode": 0, "app_exitcode": 0, "retry": 0, "std_out": "", "std_err": ""}
+{"name": ".//00/00/stage_in_local_local_0_0.out", "timestamp": "2020-08-09T23:53:41.213411", "exitcode": 0, "app_exitcode": 0, "retry": 0, "std_out": "", "std_err": ""}
+{"name": ".//00/00/stage_in_remote_local_0_0.out", "timestamp": "2020-08-09T23:53:41.154763", "exitcode": 0, "app_exitcode": 0, "retry": 0, "std_out": "", "std_err": ""}
+{"name": ".//00/00/stage_in_remote_local_2_0.out", "timestamp": "2020-08-09T23:53:41.244993", "exitcode": 0, "app_exitcode": 0, "retry": 0, "std_out": "", "std_err": ""}
+{"name": ".//00/00/word_count_ID0000001.out", "timestamp": "2020-08-09T23:54:05.949230", "exitcode": 0, "app_exitcode": 0, "retry": 0, "std_out": "", "std_err": ""}
+{"name": ".//00/00/sort_ID0000002.out", "timestamp": "2020-08-09T23:54:22.886717", "exitcode": 1, "app_exitcode": null, "retry": 0, "std_out": "", "std_err": "Success message missing from output\n"}
+{"name": ".//00/00/stage_out_local_local_0_0.out", "timestamp": "2020-08-09T23:54:26.209188", "exitcode": 0, "app_exitcode": 0, "retry": 0, "std_out": "", "std_err": ""}
+{"name": ".//00/00/clean_up_local_level_3_0.out", "timestamp": "2020-08-09T23:54:31.069615", "exitcode": 0, "app_exitcode": 0, "retry": 0, "std_out": "", "std_err": ""}
+{"name": ".//00/00/sort_ID0000002.out", "timestamp": "2020-08-09T23:54:35.646614", "exitcode": 1, "app_exitcode": null, "retry": 1, "std_out": "", "std_err": "Success message missing from output\n"}
+{"name": ".//00/00/register_local_0_0.out", "timestamp": "2020-08-09T23:54:45.963761", "exitcode": 0, "app_exitcode": 0, "retry": 0, "std_out": "", "std_err": ""}

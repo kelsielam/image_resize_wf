@@ -1,0 +1,4 @@
+ts=2020-08-15T01:11:57.106743Z event=task.info xwf.id=346f40d3-ec92-49c1-ace1-c193fc9c03e7 task.id="ID0000001" type="1" type_desc="compute" transformation="image_resize" 
+ts=2020-08-15T01:11:57.356768Z event=static.meta.start xwf.id=346f40d3-ec92-49c1-ace1-c193fc9c03e7 
+ts=2020-08-15T01:11:57.357075Z event=xwf.meta xwf.id=346f40d3-ec92-49c1-ace1-c193fc9c03e7 key="wf.api" value="python" 
+ts=2020-08-15T01:11:57.357738Z event=static.meta.end xwf.id=346f40d3-ec92-49c1-ace1-c193fc9c03e7 

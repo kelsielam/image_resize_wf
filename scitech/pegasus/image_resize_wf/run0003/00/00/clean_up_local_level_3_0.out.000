@@ -1,0 +1,183 @@
+- invocation: True
+  version: 3.0
+  start: 2020-08-14T18:27:21.902-07:00
+  duration: 10.500
+  transformation: "pegasus::cleanup"
+  derivation: "null"
+  resource: "local"
+  wf-label: "image_resize_wf"
+  wf-stamp: "2020-08-15T01:26:01+00:00"
+  interface: eth0
+  hostaddr: 172.17.0.2
+  hostname: f451b26bdf40
+  pid: 7182
+  uid: 550
+  user: scitech
+  gid: 808
+  group: scitech-group
+  umask: 0o0022
+  mainjob:
+    start: 2020-08-14T18:27:21.915-07:00
+    duration: 10.486
+    pid: 7187
+    usage:
+      utime: 0.206
+      stime: 0.118
+      maxrss: 17328
+      minflt: 14376
+      majflt: 0
+      nswap: 0
+      inblock: 8
+      outblock: 16
+      msgsnd: 0
+      msgrcv: 0
+      nsignals: 0
+      nvcsw: 310
+      nivcsw: 543
+    status:
+      raw: 0
+      regular_exitcode: 0
+    executable:
+      file_name: /home/scitech/pegasus/dist/pegasus-5.0.0dev/bin/pegasus-transfer
+      mode: 0o100755
+      size: 2253
+      inode: 3414794
+      nlink: 1
+      blksize: 4096
+      blocks: 8
+      mtime: 2020-08-06T16:21:52-07:00
+      atime: 2020-08-06T16:21:52-07:00
+      ctime: 2020-08-06T16:22:05-07:00
+      uid: 550
+      user: scitech
+      gid: 808
+      group: scitech-group
+    argument_vector:
+    procs:
+  jobids:
+    condor: 118.0
+  cwd: /home/scitech/shared-data/sample-images-wf/scitech/pegasus/image_resize_wf/run0003
+  usage:
+    utime: 0.004
+    stime: 0.012
+    maxrss: 5248
+    minflt: 330
+    majflt: 0
+    nswap: 0
+    inblock: 0
+    outblock: 0
+    msgsnd: 0
+    msgrcv: 0
+    nsignals: 0
+    nvcsw: 15
+    nivcsw: 84
+  machine:
+    page-size: 4096
+    uname_system: linux
+    uname_nodename: f451b26bdf40
+    uname_release: 4.19.76-linuxkit
+    uname_machine: x86_64
+    ram_total: 2039848
+    ram_free: 217636
+    ram_shared: 428
+    ram_buffer: 277316
+    swap_total: 1048572
+    swap_free: 1041648
+    cpu_count: 2
+    cpu_speed: 1600
+    cpu_vendor: GenuineIntel
+    cpu_model: Intel(R) Core(TM) i5-8210Y CPU @ 1.60GHz
+    load_min1: 0.99
+    load_min5: 0.37
+    load_min15: 0.18
+    procs_total: 36
+    procs_running: 2
+    procs_sleeping: 21
+    procs_zombie: 12
+    procs_vmsize: 5585260
+    procs_rss: 734676
+    task_total: 94
+    task_running: 2
+    task_sleeping: 80
+    task_zombie: 12
+  files:
+    stdin:
+      descriptor_number: 0
+      mode: 0o100644
+      size: 1187
+      inode: 17998543
+      nlink: 1
+      blksize: 4096
+      blocks: 8
+      mtime: 2020-08-14T18:26:06-07:00
+      atime: 2020-08-14T18:26:07-07:00
+      ctime: 2020-08-14T18:26:06-07:00
+      uid: 550
+      user: scitech
+      gid: 808
+      group: scitech-group
+    stdout:
+      temporary_name: /var/lib/condor/spool/local_univ_execute/dir_7180/ks.out.3M4i4R
+      descriptor: 3
+      mode: 0o100600
+      size: 1495
+      inode: 3278406
+      nlink: 1
+      blksize: 4096
+      blocks: 8
+      mtime: 2020-08-14T18:27:32-07:00
+      atime: 2020-08-14T18:27:21-07:00
+      ctime: 2020-08-14T18:27:32-07:00
+      uid: 550
+      user: scitech
+      gid: 808
+      group: scitech-group
+      data_truncated: false
+      data: |
+        2020-08-14 18:27:22,201    INFO:  Reading URL pairs from stdin
+        2020-08-14 18:27:22,206    INFO:  5 transfers loaded
+        2020-08-14 18:27:22,206    INFO:  PATH=/usr/local/bin:/usr/bin:/bin:/usr/sbin
+        2020-08-14 18:27:22,206    INFO:  LD_LIBRARY_PATH=
+        2020-08-14 18:27:22,355    INFO:  --------------------------------------------------------------------------------
+        2020-08-14 18:27:22,356    INFO:  Starting transfers - attempt 1
+        2020-08-14 18:27:24,360    INFO:  /bin/rm -f '//home/scitech/shared-data/sample-images-wf/wf-scratch/LOCAL/scitech/pegasus/image_resize_wf/run0003/./image_resize' 
+        2020-08-14 18:27:24,397    INFO:  /bin/rm -f '//home/scitech/shared-data/sample-images-wf/wf-scratch/LOCAL/scitech/pegasus/image_resize_wf/run0003/./img1.jpeg' 
+        2020-08-14 18:27:24,423    INFO:  /bin/rm -f '//home/scitech/shared-data/sample-images-wf/wf-scratch/LOCAL/scitech/pegasus/image_resize_wf/run0003/./img3.jpeg' 
+        2020-08-14 18:27:24,450    INFO:  /bin/rm -f '//home/scitech/shared-data/sample-images-wf/wf-scratch/LOCAL/scitech/pegasus/image_resize_wf/run0003/./img2.jpeg' 
+        2020-08-14 18:27:24,468    INFO:  /bin/rm -f '//home/scitech/shared-data/sample-images-wf/wf-scratch/LOCAL/scitech/pegasus/image_resize_wf/run0003/./img.jpeg' 
+        2020-08-14 18:27:32,380    INFO:  --------------------------------------------------------------------------------
+        2020-08-14 18:27:32,380    INFO:  Stats: no local files in the transfer set
+        2020-08-14 18:27:32,380    INFO:  All transfers completed successfully.
+        
+    stderr:
+      temporary_name: /var/lib/condor/spool/local_univ_execute/dir_7180/ks.err.5SJUCx
+      descriptor: 4
+      mode: 0o100600
+      size: 0
+      inode: 3278407
+      nlink: 1
+      blksize: 4096
+      blocks: 0
+      mtime: 2020-08-14T18:27:21-07:00
+      atime: 2020-08-14T18:27:21-07:00
+      ctime: 2020-08-14T18:27:21-07:00
+      uid: 550
+      user: scitech
+      gid: 808
+      group: scitech-group
+    metadata:
+      temporary_name: /var/lib/condor/spool/local_univ_execute/dir_7180/ks.meta.E2hzbd
+      descriptor: 5
+      mode: 0o100600
+      size: 0
+      inode: 3278408
+      nlink: 1
+      blksize: 4096
+      blocks: 0
+      mtime: 2020-08-14T18:27:21-07:00
+      atime: 2020-08-14T18:27:21-07:00
+      ctime: 2020-08-14T18:27:21-07:00
+      uid: 550
+      user: scitech
+      gid: 808
+      group: scitech-group

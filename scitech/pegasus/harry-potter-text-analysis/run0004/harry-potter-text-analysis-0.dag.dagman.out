@@ -1,0 +1,524 @@
+08/09/20 23:53:11 ******************************************************
+08/09/20 23:53:11 ** condor_scheduniv_exec.45.0 (CONDOR_DAGMAN) STARTING UP
+08/09/20 23:53:11 ** /usr/bin/condor_dagman
+08/09/20 23:53:11 ** SubsystemInfo: name=DAGMAN type=DAGMAN(10) class=DAEMON(1)
+08/09/20 23:53:11 ** Configuration: subsystem:DAGMAN local:<NONE> class:DAEMON
+08/09/20 23:53:11 ** $CondorVersion: 8.8.9 May 06 2020 BuildID: 503068 PackageID: 8.8.9-1 $
+08/09/20 23:53:11 ** $CondorPlatform: x86_64_CentOS7 $
+08/09/20 23:53:11 ** PID = 47771
+08/09/20 23:53:11 ** Log last touched time unavailable (No such file or directory)
+08/09/20 23:53:11 ******************************************************
+08/09/20 23:53:11 Using config source: /etc/condor/condor_config
+08/09/20 23:53:11 Using local config sources: 
+08/09/20 23:53:11    /etc/condor/config.d/00-minicondor
+08/09/20 23:53:11    /etc/condor/condor_config.local
+08/09/20 23:53:11 config Macros = 81, Sorted = 81, StringBytes = 2291, TablesBytes = 2964
+08/09/20 23:53:11 CLASSAD_CACHING is ENABLED
+08/09/20 23:53:11 Daemon Log is logging: D_ALWAYS D_ERROR
+08/09/20 23:53:11 DaemonCore: No command port requested.
+08/09/20 23:53:11 DAGMAN_USE_STRICT setting: 1
+08/09/20 23:53:11 DAGMAN_VERBOSITY setting: 3
+08/09/20 23:53:11 DAGMAN_DEBUG_CACHE_SIZE setting: 5242880
+08/09/20 23:53:11 DAGMAN_DEBUG_CACHE_ENABLE setting: False
+08/09/20 23:53:11 DAGMAN_SUBMIT_DELAY setting: 0
+08/09/20 23:53:11 DAGMAN_MAX_SUBMIT_ATTEMPTS setting: 6
+08/09/20 23:53:11 DAGMAN_STARTUP_CYCLE_DETECT setting: False
+08/09/20 23:53:11 DAGMAN_MAX_SUBMITS_PER_INTERVAL setting: 100
+08/09/20 23:53:11 DAGMAN_AGGRESSIVE_SUBMIT setting: False
+08/09/20 23:53:11 DAGMAN_USER_LOG_SCAN_INTERVAL setting: 5
+08/09/20 23:53:11 DAGMAN_QUEUE_UPDATE_INTERVAL setting: 300
+08/09/20 23:53:11 DAGMAN_DEFAULT_PRIORITY setting: 0
+08/09/20 23:53:11 DAGMAN_SUPPRESS_NOTIFICATION setting: True
+08/09/20 23:53:11 allow_events (DAGMAN_ALLOW_EVENTS) setting: 114
+08/09/20 23:53:11 DAGMAN_RETRY_SUBMIT_FIRST setting: True
+08/09/20 23:53:11 DAGMAN_RETRY_NODE_FIRST setting: False
+08/09/20 23:53:11 DAGMAN_MAX_JOBS_IDLE setting: 1000
+08/09/20 23:53:11 DAGMAN_MAX_JOBS_SUBMITTED setting: 0
+08/09/20 23:53:11 DAGMAN_MAX_PRE_SCRIPTS setting: 20
+08/09/20 23:53:11 DAGMAN_MAX_POST_SCRIPTS setting: 20
+08/09/20 23:53:11 DAGMAN_MUNGE_NODE_NAMES setting: True
+08/09/20 23:53:11 DAGMAN_PROHIBIT_MULTI_JOBS setting: False
+08/09/20 23:53:11 DAGMAN_SUBMIT_DEPTH_FIRST setting: False
+08/09/20 23:53:11 DAGMAN_ALWAYS_RUN_POST setting: False
+08/09/20 23:53:11 DAGMAN_CONDOR_SUBMIT_EXE setting: /usr/bin/condor_submit
+08/09/20 23:53:11 DAGMAN_USE_CONDOR_SUBMIT setting: True
+08/09/20 23:53:11 DAGMAN_ABORT_DUPLICATES setting: True
+08/09/20 23:53:11 DAGMAN_ABORT_ON_SCARY_SUBMIT setting: True
+08/09/20 23:53:11 DAGMAN_PENDING_REPORT_INTERVAL setting: 600
+08/09/20 23:53:11 DAGMAN_AUTO_RESCUE setting: True
+08/09/20 23:53:11 DAGMAN_MAX_RESCUE_NUM setting: 100
+08/09/20 23:53:11 DAGMAN_WRITE_PARTIAL_RESCUE setting: True
+08/09/20 23:53:11 DAGMAN_DEFAULT_NODE_LOG setting: @(DAG_DIR)/@(DAG_FILE).nodes.log
+08/09/20 23:53:11 DAGMAN_GENERATE_SUBDAG_SUBMITS setting: True
+08/09/20 23:53:11 DAGMAN_MAX_JOB_HOLDS setting: 100
+08/09/20 23:53:11 DAGMAN_HOLD_CLAIM_TIME setting: 20
+08/09/20 23:53:11 ALL_DEBUG setting: 
+08/09/20 23:53:11 DAGMAN_DEBUG setting: 
+08/09/20 23:53:11 DAGMAN_SUPPRESS_JOB_LOGS setting: False
+08/09/20 23:53:11 DAGMAN_REMOVE_NODE_JOBS setting: True
+08/09/20 23:53:11 argv[0] == "condor_scheduniv_exec.45.0"
+08/09/20 23:53:11 argv[1] == "-Lockfile"
+08/09/20 23:53:11 argv[2] == "harry-potter-text-analysis-0.dag.lock"
+08/09/20 23:53:11 argv[3] == "-AutoRescue"
+08/09/20 23:53:11 argv[4] == "1"
+08/09/20 23:53:11 argv[5] == "-DoRescueFrom"
+08/09/20 23:53:11 argv[6] == "0"
+08/09/20 23:53:11 argv[7] == "-Dag"
+08/09/20 23:53:11 argv[8] == "harry-potter-text-analysis-0.dag"
+08/09/20 23:53:11 argv[9] == "-MaxPost"
+08/09/20 23:53:11 argv[10] == "20"
+08/09/20 23:53:11 argv[11] == "-Suppress_notification"
+08/09/20 23:53:11 argv[12] == "-CsdVersion"
+08/09/20 23:53:11 argv[13] == "$CondorVersion: 8.8.9 May 06 2020 BuildID: 503068 PackageID: 8.8.9-1 $"
+08/09/20 23:53:11 argv[14] == "-Dagman"
+08/09/20 23:53:11 argv[15] == "/bin/condor_dagman"
+08/09/20 23:53:11 Workflow batch-name: <harry-potter-text-analysis-0.dag+45>
+08/09/20 23:53:11 Workflow accounting_group: <>
+08/09/20 23:53:11 Workflow accounting_group_user: <>
+08/09/20 23:53:11 Warning: failed to get attribute DAGNodeName
+08/09/20 23:53:11 DAGMAN_LOG_ON_NFS_IS_ERROR setting: False
+08/09/20 23:53:11 Default node log file is: </home/scitech/shared-data/sample-text-analysis-wf/scitech/pegasus/harry-potter-text-analysis/run0004/./harry-potter-text-analysis-0.dag.nodes.log>
+08/09/20 23:53:11 DAG Lockfile will be written to harry-potter-text-analysis-0.dag.lock
+08/09/20 23:53:11 DAG Input file is harry-potter-text-analysis-0.dag
+08/09/20 23:53:11 Parsing 1 dagfiles
+08/09/20 23:53:11 Parsing harry-potter-text-analysis-0.dag ...
+08/09/20 23:53:11 Warning:  could not open Pegasus braindump file braindump.txt
+08/09/20 23:53:11 Dag contains 19 total jobs
+08/09/20 23:53:11 Sleeping for 3 seconds to ensure ProcessId uniqueness
+08/09/20 23:53:14 Bootstrapping...
+08/09/20 23:53:14 Number of pre-completed nodes: 0
+08/09/20 23:53:14 MultiLogFiles: truncating log file /home/scitech/shared-data/sample-text-analysis-wf/scitech/pegasus/harry-potter-text-analysis/run0004/./harry-potter-text-analysis-0.dag.nodes.log
+08/09/20 23:53:14 DAG status: 0 (DAG_STATUS_OK)
+08/09/20 23:53:14 Of 19 nodes total:
+08/09/20 23:53:14  Done     Pre   Queued    Post   Ready   Un-Ready   Failed
+08/09/20 23:53:14   ===     ===      ===     ===     ===        ===      ===
+08/09/20 23:53:14     0       0        0       0       1         18        0
+08/09/20 23:53:14 0 job proc(s) currently held
+08/09/20 23:53:14 DAGMan Runtime Statistics: [ EventCycleTimeSum = 0.0; EventCycleTimeCount = 0.0; SleepCycleTimeCount = 0.0; SubmitCycleTimeSum = 0.0; SubmitCycleTimeCount = 0.0; LogProcessCycleTimeSum = 0.0; SleepCycleTimeSum = 0.0; LogProcessCycleTimeCount = 0.0; ]
+08/09/20 23:53:14 Registering condor_event_timer...
+08/09/20 23:53:15 Submitting HTCondor Node create_dir_harry-potter-text-analysis_0_local job(s)...
+08/09/20 23:53:15 Adding a DAGMan workflow log /home/scitech/shared-data/sample-text-analysis-wf/scitech/pegasus/harry-potter-text-analysis/run0004/./harry-potter-text-analysis-0.dag.nodes.log
+08/09/20 23:53:15 Masking the events recorded in the DAGMAN workflow log
+08/09/20 23:53:15 Mask for workflow log is 0,1,2,4,5,7,9,10,11,12,13,16,17,24,27,35,36
+08/09/20 23:53:15 submitting: /usr/bin/condor_submit -a dag_node_name' '=' 'create_dir_harry-potter-text-analysis_0_local -a +DAGManJobId' '=' '45 -a DAGManJobId' '=' '45 -batch-name harry-potter-text-analysis-0.dag+45 -a submit_event_notes' '=' 'DAG' 'Node:' 'create_dir_harry-potter-text-analysis_0_local -a dagman_log' '=' '/home/scitech/shared-data/sample-text-analysis-wf/scitech/pegasus/harry-potter-text-analysis/run0004/./harry-potter-text-analysis-0.dag.nodes.log -a +DAGManNodesMask' '=' '"0,1,2,4,5,7,9,10,11,12,13,16,17,24,27,35,36" -a priority=800 -a +DAGNodeRetry' '=' '0 -a DAG_STATUS' '=' '0 -a FAILED_COUNT' '=' '0 -a +KeepClaimIdle' '=' '20 -a notification' '=' 'never -a +DAGParentNodeNames' '=' '"" 00/00/create_dir_harry-potter-text-analysis_0_local.sub
+08/09/20 23:53:15 From submit: Submitting job(s).
+08/09/20 23:53:15 From submit: 1 job(s) submitted to cluster 46.
+08/09/20 23:53:15 	assigned HTCondor ID (46.0.0)
+08/09/20 23:53:15 Just submitted 1 job this cycle...
+08/09/20 23:53:15 DAG status: 0 (DAG_STATUS_OK)
+08/09/20 23:53:15 Of 19 nodes total:
+08/09/20 23:53:15  Done     Pre   Queued    Post   Ready   Un-Ready   Failed
+08/09/20 23:53:15   ===     ===      ===     ===     ===        ===      ===
+08/09/20 23:53:15     0       0        1       0       0         18        0
+08/09/20 23:53:15 0 job proc(s) currently held
+08/09/20 23:53:15 DAGMan Runtime Statistics: [ EventCycleTimeCount = 0.0; EventCycleTimeSum = 0.0; LogProcessCycleTimeCount = 0.0; SleepCycleTimeSum = 0.0; LogProcessCycleTimeSum = 0.0; SubmitCycleTimeCount = 1.0; SubmitCycleTimeMax = 0.07370400428771973; SubmitCycleTimeMin = 0.07370400428771973; SubmitCycleTimeAvg = 0.07370400428771973; SubmitCycleTimeStd = 0.07370400428771973; SubmitCycleTimeSum = 0.07370400428771973; SleepCycleTimeCount = 0.0; ]
+08/09/20 23:53:20 Currently monitoring 1 HTCondor log file(s)
+08/09/20 23:53:20 Reassigning the id of job create_dir_harry-potter-text-analysis_0_local from (46.0.0) to (46.0.0)
+08/09/20 23:53:20 Event: ULOG_SUBMIT for HTCondor Node create_dir_harry-potter-text-analysis_0_local (46.0.0) {08/09/20 23:53:15}
+08/09/20 23:53:20 Number of idle job procs: 1
+08/09/20 23:53:20 Event: ULOG_EXECUTE for HTCondor Node create_dir_harry-potter-text-analysis_0_local (46.0.0) {08/09/20 23:53:16}
+08/09/20 23:53:20 Number of idle job procs: 0
+08/09/20 23:53:20 Event: ULOG_JOB_TERMINATED for HTCondor Node create_dir_harry-potter-text-analysis_0_local (46.0.0) {08/09/20 23:53:19}
+08/09/20 23:53:20 Number of idle job procs: 0
+08/09/20 23:53:20 Node create_dir_harry-potter-text-analysis_0_local job proc (46.0.0) completed successfully.
+08/09/20 23:53:20 Node create_dir_harry-potter-text-analysis_0_local job completed
+08/09/20 23:53:20 Running POST script of Node create_dir_harry-potter-text-analysis_0_local...
+08/09/20 23:53:20 Warning: mysin has length 0 (ignore if produced by DAGMan; see gittrac #4987, #5031)
+08/09/20 23:53:20 DAG status: 0 (DAG_STATUS_OK)
+08/09/20 23:53:20 Of 19 nodes total:
+08/09/20 23:53:20  Done     Pre   Queued    Post   Ready   Un-Ready   Failed
+08/09/20 23:53:20   ===     ===      ===     ===     ===        ===      ===
+08/09/20 23:53:20     0       0        0       1       0         18        0
+08/09/20 23:53:20 0 job proc(s) currently held
+08/09/20 23:53:20 DAGMan Runtime Statistics: [ EventCycleTimeStd = 0.07908201217651367; EventCycleTimeMax = 0.07908201217651367; SubmitCycleTimeMin = 0.0009670257568359375; SubmitCycleTimeAvg = 0.03733551502227783; SleepCycleTimeCount = 1.0; SubmitCycleTimeCount = 2.0; SubmitCycleTimeMax = 0.07370400428771973; SleepCycleTimeMin = 5.007088899612427; SubmitCycleTimeSum = 0.07467103004455566; LogProcessCycleTimeStd = 0.02364206314086914; SubmitCycleTimeStd = 0.05143281076220825; LogProcessCycleTimeAvg = 0.02364206314086914; EventCycleTimeMin = 0.07908201217651367; LogProcessCycleTimeMax = 0.02364206314086914; LogProcessCycleTimeMin = 0.02364206314086914; LogProcessCycleTimeSum = 0.02364206314086914; LogProcessCycleTimeCount = 1.0; EventCycleTimeSum = 0.07908201217651367; SleepCycleTimeSum = 5.007088899612427; SleepCycleTimeAvg = 5.007088899612427; SleepCycleTimeStd = 5.007088899612427; SleepCycleTimeMax = 5.007088899612427; EventCycleTimeCount = 1.0; EventCycleTimeAvg = 0.07908201217651367; ]
+08/09/20 23:53:21 Initializing user log writer for /home/scitech/shared-data/sample-text-analysis-wf/scitech/pegasus/harry-potter-text-analysis/run0004/./harry-potter-text-analysis-0.dag.nodes.log, (46.0.0)
+08/09/20 23:53:25 Currently monitoring 1 HTCondor log file(s)
+08/09/20 23:53:25 Event: ULOG_POST_SCRIPT_TERMINATED for HTCondor Node create_dir_harry-potter-text-analysis_0_local (46.0.0) {08/09/20 23:53:21}
+08/09/20 23:53:25 POST Script of node create_dir_harry-potter-text-analysis_0_local completed successfully.
+08/09/20 23:53:25 DAG status: 0 (DAG_STATUS_OK)
+08/09/20 23:53:25 Of 19 nodes total:
+08/09/20 23:53:25  Done     Pre   Queued    Post   Ready   Un-Ready   Failed
+08/09/20 23:53:25   ===     ===      ===     ===     ===        ===      ===
+08/09/20 23:53:25     1       0        0       0       4         14        0
+08/09/20 23:53:25 0 job proc(s) currently held
+08/09/20 23:53:25 DAGMan Runtime Statistics: [ EventCycleTimeStd = 0.03292140913404146; EventCycleTimeMax = 0.07908201217651367; SubmitCycleTimeMin = 0.0009670257568359375; SubmitCycleTimeAvg = 0.02542336781819661; SleepCycleTimeCount = 2.0; SubmitCycleTimeCount = 3.0; SubmitCycleTimeMax = 0.07370400428771973; SleepCycleTimeMin = 4.312784910202026; SubmitCycleTimeSum = 0.07627010345458984; LogProcessCycleTimeStd = 0.009034767034189288; SubmitCycleTimeStd = 0.04181345195610693; LogProcessCycleTimeAvg = 0.01725351810455322; EventCycleTimeMin = 0.03252410888671875; LogProcessCycleTimeMax = 0.02364206314086914; LogProcessCycleTimeMin = 0.0108649730682373; LogProcessCycleTimeSum = 0.03450703620910645; LogProcessCycleTimeCount = 2.0; EventCycleTimeSum = 0.1116061210632324; SleepCycleTimeSum = 9.319873809814453; SleepCycleTimeAvg = 4.659936904907227; SleepCycleTimeStd = 0.490947059116967; SleepCycleTimeMax = 5.007088899612427; EventCycleTimeCount = 2.0; EventCycleTimeAvg = 0.05580306053161621; ]
+08/09/20 23:53:30 Submitting HTCondor Node stage_in_remote_local_2_0 job(s)...
+08/09/20 23:53:30 Adding a DAGMan workflow log /home/scitech/shared-data/sample-text-analysis-wf/scitech/pegasus/harry-potter-text-analysis/run0004/./harry-potter-text-analysis-0.dag.nodes.log
+08/09/20 23:53:30 Masking the events recorded in the DAGMAN workflow log
+08/09/20 23:53:30 Mask for workflow log is 0,1,2,4,5,7,9,10,11,12,13,16,17,24,27,35,36
+08/09/20 23:53:30 submitting: /usr/bin/condor_submit -a dag_node_name' '=' 'stage_in_remote_local_2_0 -a +DAGManJobId' '=' '45 -a DAGManJobId' '=' '45 -batch-name harry-potter-text-analysis-0.dag+45 -a submit_event_notes' '=' 'DAG' 'Node:' 'stage_in_remote_local_2_0 -a dagman_log' '=' '/home/scitech/shared-data/sample-text-analysis-wf/scitech/pegasus/harry-potter-text-analysis/run0004/./harry-potter-text-analysis-0.dag.nodes.log -a +DAGManNodesMask' '=' '"0,1,2,4,5,7,9,10,11,12,13,16,17,24,27,35,36" -a priority=700 -a +DAGNodeRetry' '=' '0 -a DAG_STATUS' '=' '0 -a FAILED_COUNT' '=' '0 -a +KeepClaimIdle' '=' '20 -a notification' '=' 'never -a +DAGParentNodeNames' '=' '"create_dir_harry-potter-text-analysis_0_local" 00/00/stage_in_remote_local_2_0.sub
+08/09/20 23:53:30 From submit: Submitting job(s).
+08/09/20 23:53:30 From submit: 1 job(s) submitted to cluster 47.
+08/09/20 23:53:30 	assigned HTCondor ID (47.0.0)
+08/09/20 23:53:30 Submitting HTCondor Node stage_in_remote_local_1_0 job(s)...
+08/09/20 23:53:30 Adding a DAGMan workflow log /home/scitech/shared-data/sample-text-analysis-wf/scitech/pegasus/harry-potter-text-analysis/run0004/./harry-potter-text-analysis-0.dag.nodes.log
+08/09/20 23:53:30 Masking the events recorded in the DAGMAN workflow log
+08/09/20 23:53:30 Mask for workflow log is 0,1,2,4,5,7,9,10,11,12,13,16,17,24,27,35,36
+08/09/20 23:53:30 submitting: /usr/bin/condor_submit -a dag_node_name' '=' 'stage_in_remote_local_1_0 -a +DAGManJobId' '=' '45 -a DAGManJobId' '=' '45 -batch-name harry-potter-text-analysis-0.dag+45 -a submit_event_notes' '=' 'DAG' 'Node:' 'stage_in_remote_local_1_0 -a dagman_log' '=' '/home/scitech/shared-data/sample-text-analysis-wf/scitech/pegasus/harry-potter-text-analysis/run0004/./harry-potter-text-analysis-0.dag.nodes.log -a +DAGManNodesMask' '=' '"0,1,2,4,5,7,9,10,11,12,13,16,17,24,27,35,36" -a priority=700 -a +DAGNodeRetry' '=' '0 -a DAG_STATUS' '=' '0 -a FAILED_COUNT' '=' '0 -a +KeepClaimIdle' '=' '20 -a notification' '=' 'never -a +DAGParentNodeNames' '=' '"create_dir_harry-potter-text-analysis_0_local" 00/00/stage_in_remote_local_1_0.sub
+08/09/20 23:53:30 From submit: Submitting job(s).
+08/09/20 23:53:30 From submit: 1 job(s) submitted to cluster 48.
+08/09/20 23:53:30 	assigned HTCondor ID (48.0.0)
+08/09/20 23:53:30 Submitting HTCondor Node stage_in_remote_local_0_0 job(s)...
+08/09/20 23:53:30 Adding a DAGMan workflow log /home/scitech/shared-data/sample-text-analysis-wf/scitech/pegasus/harry-potter-text-analysis/run0004/./harry-potter-text-analysis-0.dag.nodes.log
+08/09/20 23:53:30 Masking the events recorded in the DAGMAN workflow log
+08/09/20 23:53:30 Mask for workflow log is 0,1,2,4,5,7,9,10,11,12,13,16,17,24,27,35,36
+08/09/20 23:53:30 submitting: /usr/bin/condor_submit -a dag_node_name' '=' 'stage_in_remote_local_0_0 -a +DAGManJobId' '=' '45 -a DAGManJobId' '=' '45 -batch-name harry-potter-text-analysis-0.dag+45 -a submit_event_notes' '=' 'DAG' 'Node:' 'stage_in_remote_local_0_0 -a dagman_log' '=' '/home/scitech/shared-data/sample-text-analysis-wf/scitech/pegasus/harry-potter-text-analysis/run0004/./harry-potter-text-analysis-0.dag.nodes.log -a +DAGManNodesMask' '=' '"0,1,2,4,5,7,9,10,11,12,13,16,17,24,27,35,36" -a priority=700 -a +DAGNodeRetry' '=' '0 -a DAG_STATUS' '=' '0 -a FAILED_COUNT' '=' '0 -a +KeepClaimIdle' '=' '20 -a notification' '=' 'never -a +DAGParentNodeNames' '=' '"create_dir_harry-potter-text-analysis_0_local" 00/00/stage_in_remote_local_0_0.sub
+08/09/20 23:53:30 From submit: Submitting job(s).
+08/09/20 23:53:30 From submit: 1 job(s) submitted to cluster 49.
+08/09/20 23:53:30 	assigned HTCondor ID (49.0.0)
+08/09/20 23:53:30 Submitting HTCondor Node stage_in_local_local_0_0 job(s)...
+08/09/20 23:53:30 Adding a DAGMan workflow log /home/scitech/shared-data/sample-text-analysis-wf/scitech/pegasus/harry-potter-text-analysis/run0004/./harry-potter-text-analysis-0.dag.nodes.log
+08/09/20 23:53:30 Masking the events recorded in the DAGMAN workflow log
+08/09/20 23:53:30 Mask for workflow log is 0,1,2,4,5,7,9,10,11,12,13,16,17,24,27,35,36
+08/09/20 23:53:30 submitting: /usr/bin/condor_submit -a dag_node_name' '=' 'stage_in_local_local_0_0 -a +DAGManJobId' '=' '45 -a DAGManJobId' '=' '45 -batch-name harry-potter-text-analysis-0.dag+45 -a submit_event_notes' '=' 'DAG' 'Node:' 'stage_in_local_local_0_0 -a dagman_log' '=' '/home/scitech/shared-data/sample-text-analysis-wf/scitech/pegasus/harry-potter-text-analysis/run0004/./harry-potter-text-analysis-0.dag.nodes.log -a +DAGManNodesMask' '=' '"0,1,2,4,5,7,9,10,11,12,13,16,17,24,27,35,36" -a priority=700 -a +DAGNodeRetry' '=' '0 -a DAG_STATUS' '=' '0 -a FAILED_COUNT' '=' '0 -a +KeepClaimIdle' '=' '20 -a notification' '=' 'never -a +DAGParentNodeNames' '=' '"create_dir_harry-potter-text-analysis_0_local" 00/00/stage_in_local_local_0_0.sub
+08/09/20 23:53:30 From submit: Submitting job(s).
+08/09/20 23:53:30 From submit: 1 job(s) submitted to cluster 50.
+08/09/20 23:53:30 	assigned HTCondor ID (50.0.0)
+08/09/20 23:53:30 Just submitted 4 jobs this cycle...
+08/09/20 23:53:30 DAG status: 0 (DAG_STATUS_OK)
+08/09/20 23:53:30 Of 19 nodes total:
+08/09/20 23:53:30  Done     Pre   Queued    Post   Ready   Un-Ready   Failed
+08/09/20 23:53:30   ===     ===      ===     ===     ===        ===      ===
+08/09/20 23:53:30     1       0        4       0       0         14        0
+08/09/20 23:53:30 0 job proc(s) currently held
+08/09/20 23:53:30 DAGMan Runtime Statistics: [ EventCycleTimeStd = 0.0287603148337363; EventCycleTimeMax = 0.07908201217651367; SubmitCycleTimeMin = 0.0009670257568359375; SubmitCycleTimeAvg = 0.08497631549835205; SleepCycleTimeCount = 3.0; SubmitCycleTimeCount = 4.0; SubmitCycleTimeMax = 0.2636351585388184; SleepCycleTimeMin = 4.312784910202026; SubmitCycleTimeSum = 0.3399052619934082; LogProcessCycleTimeStd = 0.009034767034189288; SubmitCycleTimeStd = 0.1239023438811326; LogProcessCycleTimeAvg = 0.01725351810455322; EventCycleTimeMin = 0.0265500545501709; LogProcessCycleTimeMax = 0.02364206314086914; LogProcessCycleTimeMin = 0.0108649730682373; LogProcessCycleTimeSum = 0.03450703620910645; LogProcessCycleTimeCount = 2.0; EventCycleTimeSum = 0.1381561756134033; SleepCycleTimeSum = 14.32796287536621; SleepCycleTimeAvg = 4.77598762512207; SleepCycleTimeStd = 0.4011456299337576; SleepCycleTimeMax = 5.008089065551758; EventCycleTimeCount = 3.0; EventCycleTimeAvg = 0.04605205853780111; ]
+08/09/20 23:53:35 Currently monitoring 1 HTCondor log file(s)
+08/09/20 23:53:35 Reassigning the id of job stage_in_remote_local_2_0 from (47.0.0) to (47.0.0)
+08/09/20 23:53:35 Event: ULOG_SUBMIT for HTCondor Node stage_in_remote_local_2_0 (47.0.0) {08/09/20 23:53:30}
+08/09/20 23:53:35 Number of idle job procs: 1
+08/09/20 23:53:35 Reassigning the id of job stage_in_remote_local_1_0 from (48.0.0) to (48.0.0)
+08/09/20 23:53:35 Event: ULOG_SUBMIT for HTCondor Node stage_in_remote_local_1_0 (48.0.0) {08/09/20 23:53:30}
+08/09/20 23:53:35 Number of idle job procs: 2
+08/09/20 23:53:35 Reassigning the id of job stage_in_remote_local_0_0 from (49.0.0) to (49.0.0)
+08/09/20 23:53:35 Event: ULOG_SUBMIT for HTCondor Node stage_in_remote_local_0_0 (49.0.0) {08/09/20 23:53:30}
+08/09/20 23:53:35 Number of idle job procs: 3
+08/09/20 23:53:35 Reassigning the id of job stage_in_local_local_0_0 from (50.0.0) to (50.0.0)
+08/09/20 23:53:35 Event: ULOG_SUBMIT for HTCondor Node stage_in_local_local_0_0 (50.0.0) {08/09/20 23:53:30}
+08/09/20 23:53:35 Number of idle job procs: 4
+08/09/20 23:53:35 Event: ULOG_EXECUTE for HTCondor Node stage_in_remote_local_2_0 (47.0.0) {08/09/20 23:53:33}
+08/09/20 23:53:35 Number of idle job procs: 3
+08/09/20 23:53:35 Event: ULOG_EXECUTE for HTCondor Node stage_in_remote_local_0_0 (49.0.0) {08/09/20 23:53:33}
+08/09/20 23:53:35 Number of idle job procs: 2
+08/09/20 23:53:35 Event: ULOG_EXECUTE for HTCondor Node stage_in_remote_local_1_0 (48.0.0) {08/09/20 23:53:33}
+08/09/20 23:53:35 Number of idle job procs: 1
+08/09/20 23:53:35 Event: ULOG_EXECUTE for HTCondor Node stage_in_local_local_0_0 (50.0.0) {08/09/20 23:53:33}
+08/09/20 23:53:35 Number of idle job procs: 0
+08/09/20 23:53:40 Currently monitoring 1 HTCondor log file(s)
+08/09/20 23:53:40 Event: ULOG_JOB_TERMINATED for HTCondor Node stage_in_remote_local_1_0 (48.0.0) {08/09/20 23:53:37}
+08/09/20 23:53:40 Number of idle job procs: 0
+08/09/20 23:53:40 Node stage_in_remote_local_1_0 job proc (48.0.0) completed successfully.
+08/09/20 23:53:40 Node stage_in_remote_local_1_0 job completed
+08/09/20 23:53:40 Running POST script of Node stage_in_remote_local_1_0...
+08/09/20 23:53:40 Warning: mysin has length 0 (ignore if produced by DAGMan; see gittrac #4987, #5031)
+08/09/20 23:53:40 Event: ULOG_JOB_TERMINATED for HTCondor Node stage_in_remote_local_2_0 (47.0.0) {08/09/20 23:53:37}
+08/09/20 23:53:40 Number of idle job procs: 0
+08/09/20 23:53:40 Node stage_in_remote_local_2_0 job proc (47.0.0) completed successfully.
+08/09/20 23:53:40 Node stage_in_remote_local_2_0 job completed
+08/09/20 23:53:40 Running POST script of Node stage_in_remote_local_2_0...
+08/09/20 23:53:40 Warning: mysin has length 0 (ignore if produced by DAGMan; see gittrac #4987, #5031)
+08/09/20 23:53:40 Event: ULOG_JOB_TERMINATED for HTCondor Node stage_in_local_local_0_0 (50.0.0) {08/09/20 23:53:37}
+08/09/20 23:53:40 Number of idle job procs: 0
+08/09/20 23:53:40 Node stage_in_local_local_0_0 job proc (50.0.0) completed successfully.
+08/09/20 23:53:40 Node stage_in_local_local_0_0 job completed
+08/09/20 23:53:40 Running POST script of Node stage_in_local_local_0_0...
+08/09/20 23:53:40 Warning: mysin has length 0 (ignore if produced by DAGMan; see gittrac #4987, #5031)
+08/09/20 23:53:40 Event: ULOG_JOB_TERMINATED for HTCondor Node stage_in_remote_local_0_0 (49.0.0) {08/09/20 23:53:37}
+08/09/20 23:53:40 Number of idle job procs: 0
+08/09/20 23:53:40 Node stage_in_remote_local_0_0 job proc (49.0.0) completed successfully.
+08/09/20 23:53:40 Node stage_in_remote_local_0_0 job completed
+08/09/20 23:53:40 Running POST script of Node stage_in_remote_local_0_0...
+08/09/20 23:53:40 Warning: mysin has length 0 (ignore if produced by DAGMan; see gittrac #4987, #5031)
+08/09/20 23:53:40 DAG status: 0 (DAG_STATUS_OK)
+08/09/20 23:53:40 Of 19 nodes total:
+08/09/20 23:53:40  Done     Pre   Queued    Post   Ready   Un-Ready   Failed
+08/09/20 23:53:40   ===     ===      ===     ===     ===        ===      ===
+08/09/20 23:53:40     1       0        0       4       0         14        0
+08/09/20 23:53:40 0 job proc(s) currently held
+08/09/20 23:53:40 DAGMan Runtime Statistics: [ EventCycleTimeStd = 0.104886551550582; EventCycleTimeMax = 0.2743229866027832; SubmitCycleTimeMin = 0.0009670257568359375; SubmitCycleTimeAvg = 0.05708654721577962; SleepCycleTimeCount = 5.0; SubmitCycleTimeCount = 6.0; SubmitCycleTimeMax = 0.2636351585388184; SleepCycleTimeMin = 4.312784910202026; SubmitCycleTimeSum = 0.3425192832946777; LogProcessCycleTimeStd = 0.0249364710975849; SubmitCycleTimeStd = 0.1052515849462339; LogProcessCycleTimeAvg = 0.03502804040908813; EventCycleTimeMin = 0.0265500545501709; LogProcessCycleTimeMax = 0.06892895698547363; LogProcessCycleTimeMin = 0.0108649730682373; LogProcessCycleTimeSum = 0.1401121616363525; LogProcessCycleTimeCount = 4.0; EventCycleTimeSum = 0.4516680240631104; SleepCycleTimeSum = 24.3429000377655; SleepCycleTimeAvg = 4.868580007553101; SleepCycleTimeStd = 0.3107079456640869; SleepCycleTimeMax = 5.01078200340271; EventCycleTimeCount = 5.0; EventCycleTimeAvg = 0.09033360481262206; ]
+08/09/20 23:53:41 Initializing user log writer for /home/scitech/shared-data/sample-text-analysis-wf/scitech/pegasus/harry-potter-text-analysis/run0004/./harry-potter-text-analysis-0.dag.nodes.log, (48.0.0)
+08/09/20 23:53:41 Initializing user log writer for /home/scitech/shared-data/sample-text-analysis-wf/scitech/pegasus/harry-potter-text-analysis/run0004/./harry-potter-text-analysis-0.dag.nodes.log, (50.0.0)
+08/09/20 23:53:41 Initializing user log writer for /home/scitech/shared-data/sample-text-analysis-wf/scitech/pegasus/harry-potter-text-analysis/run0004/./harry-potter-text-analysis-0.dag.nodes.log, (49.0.0)
+08/09/20 23:53:41 Initializing user log writer for /home/scitech/shared-data/sample-text-analysis-wf/scitech/pegasus/harry-potter-text-analysis/run0004/./harry-potter-text-analysis-0.dag.nodes.log, (47.0.0)
+08/09/20 23:53:45 Currently monitoring 1 HTCondor log file(s)
+08/09/20 23:53:45 Event: ULOG_POST_SCRIPT_TERMINATED for HTCondor Node stage_in_remote_local_1_0 (48.0.0) {08/09/20 23:53:41}
+08/09/20 23:53:45 POST Script of node stage_in_remote_local_1_0 completed successfully.
+08/09/20 23:53:45 Event: ULOG_POST_SCRIPT_TERMINATED for HTCondor Node stage_in_local_local_0_0 (50.0.0) {08/09/20 23:53:41}
+08/09/20 23:53:45 POST Script of node stage_in_local_local_0_0 completed successfully.
+08/09/20 23:53:45 Event: ULOG_POST_SCRIPT_TERMINATED for HTCondor Node stage_in_remote_local_0_0 (49.0.0) {08/09/20 23:53:41}
+08/09/20 23:53:45 POST Script of node stage_in_remote_local_0_0 completed successfully.
+08/09/20 23:53:45 Event: ULOG_POST_SCRIPT_TERMINATED for HTCondor Node stage_in_remote_local_2_0 (47.0.0) {08/09/20 23:53:41}
+08/09/20 23:53:45 POST Script of node stage_in_remote_local_2_0 completed successfully.
+08/09/20 23:53:45 DAG status: 0 (DAG_STATUS_OK)
+08/09/20 23:53:45 Of 19 nodes total:
+08/09/20 23:53:45  Done     Pre   Queued    Post   Ready   Un-Ready   Failed
+08/09/20 23:53:45   ===     ===      ===     ===     ===        ===      ===
+08/09/20 23:53:45     5       0        0       0       1         13        0
+08/09/20 23:53:45 0 job proc(s) currently held
+08/09/20 23:53:45 DAGMan Runtime Statistics: [ EventCycleTimeStd = 0.09393897614076777; EventCycleTimeMax = 0.2743229866027832; SubmitCycleTimeMin = 0.0005741119384765625; SubmitCycleTimeAvg = 0.0490133421761649; SleepCycleTimeCount = 6.0; SubmitCycleTimeCount = 7.0; SubmitCycleTimeMax = 0.2636351585388184; SleepCycleTimeMin = 4.312784910202026; SubmitCycleTimeSum = 0.3430933952331543; LogProcessCycleTimeStd = 0.02163568947155877; SubmitCycleTimeStd = 0.09842670668417965; LogProcessCycleTimeAvg = 0.03443942070007324; EventCycleTimeMin = 0.0265500545501709; LogProcessCycleTimeMax = 0.06892895698547363; LogProcessCycleTimeMin = 0.0108649730682373; LogProcessCycleTimeSum = 0.1721971035003662; LogProcessCycleTimeCount = 5.0; EventCycleTimeSum = 0.5301070213317871; SleepCycleTimeSum = 29.11430382728577; SleepCycleTimeAvg = 4.852383971214294; SleepCycleTimeStd = 0.2807230157246954; SleepCycleTimeMax = 5.01078200340271; EventCycleTimeCount = 6.0; EventCycleTimeAvg = 0.08835117022196452; ]
+08/09/20 23:53:50 Submitting HTCondor Node word_count_ID0000001 job(s)...
+08/09/20 23:53:50 Adding a DAGMan workflow log /home/scitech/shared-data/sample-text-analysis-wf/scitech/pegasus/harry-potter-text-analysis/run0004/./harry-potter-text-analysis-0.dag.nodes.log
+08/09/20 23:53:50 Masking the events recorded in the DAGMAN workflow log
+08/09/20 23:53:50 Mask for workflow log is 0,1,2,4,5,7,9,10,11,12,13,16,17,24,27,35,36
+08/09/20 23:53:50 submitting: /usr/bin/condor_submit -a dag_node_name' '=' 'word_count_ID0000001 -a +DAGManJobId' '=' '45 -a DAGManJobId' '=' '45 -batch-name harry-potter-text-analysis-0.dag+45 -a submit_event_notes' '=' 'DAG' 'Node:' 'word_count_ID0000001 -a dagman_log' '=' '/home/scitech/shared-data/sample-text-analysis-wf/scitech/pegasus/harry-potter-text-analysis/run0004/./harry-potter-text-analysis-0.dag.nodes.log -a +DAGManNodesMask' '=' '"0,1,2,4,5,7,9,10,11,12,13,16,17,24,27,35,36" -a priority=20 -a +DAGNodeRetry' '=' '0 -a DAG_STATUS' '=' '0 -a FAILED_COUNT' '=' '0 -a +KeepClaimIdle' '=' '20 -a notification' '=' 'never -a +DAGParentNodeNames' '=' '"stage_in_remote_local_0_0,stage_in_local_local_0_0" 00/00/word_count_ID0000001.sub
+08/09/20 23:53:50 From submit: Submitting job(s).
+08/09/20 23:53:50 From submit: 1 job(s) submitted to cluster 51.
+08/09/20 23:53:50 	assigned HTCondor ID (51.0.0)
+08/09/20 23:53:50 Just submitted 1 job this cycle...
+08/09/20 23:53:50 DAG status: 0 (DAG_STATUS_OK)
+08/09/20 23:53:50 Of 19 nodes total:
+08/09/20 23:53:50  Done     Pre   Queued    Post   Ready   Un-Ready   Failed
+08/09/20 23:53:50   ===     ===      ===     ===     ===        ===      ===
+08/09/20 23:53:50     5       0        1       0       0         13        0
+08/09/20 23:53:50 0 job proc(s) currently held
+08/09/20 23:53:50 DAGMan Runtime Statistics: [ EventCycleTimeStd = 0.08690512977353472; EventCycleTimeMax = 0.2743229866027832; SubmitCycleTimeMin = 0.0005741119384765625; SubmitCycleTimeAvg = 0.06391453742980957; SleepCycleTimeCount = 7.0; SubmitCycleTimeCount = 8.0; SubmitCycleTimeMax = 0.2636351585388184; SleepCycleTimeMin = 4.312784910202026; SubmitCycleTimeSum = 0.5113162994384766; LogProcessCycleTimeStd = 0.02163568947155877; SubmitCycleTimeStd = 0.1004002377995525; LogProcessCycleTimeAvg = 0.03443942070007324; EventCycleTimeMin = 0.0265500545501709; LogProcessCycleTimeMax = 0.06892895698547363; LogProcessCycleTimeMin = 0.0108649730682373; LogProcessCycleTimeSum = 0.1721971035003662; LogProcessCycleTimeCount = 5.0; EventCycleTimeSum = 0.5811610221862793; SleepCycleTimeSum = 34.12031483650208; SleepCycleTimeAvg = 4.874330690928868; SleepCycleTimeStd = 0.2627599395676289; SleepCycleTimeMax = 5.01078200340271; EventCycleTimeCount = 7.0; EventCycleTimeAvg = 0.08302300316946847; ]
+08/09/20 23:53:55 Currently monitoring 1 HTCondor log file(s)
+08/09/20 23:53:55 Reassigning the id of job word_count_ID0000001 from (51.0.0) to (51.0.0)
+08/09/20 23:53:55 Event: ULOG_SUBMIT for HTCondor Node word_count_ID0000001 (51.0.0) {08/09/20 23:53:50}
+08/09/20 23:53:55 Number of idle job procs: 1
+08/09/20 23:54:00 Currently monitoring 1 HTCondor log file(s)
+08/09/20 23:54:00 Event: ULOG_EXECUTE for HTCondor Node word_count_ID0000001 (51.0.0) {08/09/20 23:54:00}
+08/09/20 23:54:00 Number of idle job procs: 0
+08/09/20 23:54:05 Currently monitoring 1 HTCondor log file(s)
+08/09/20 23:54:05 Event: ULOG_JOB_TERMINATED for HTCondor Node word_count_ID0000001 (51.0.0) {08/09/20 23:54:01}
+08/09/20 23:54:05 Number of idle job procs: 0
+08/09/20 23:54:05 Node word_count_ID0000001 job proc (51.0.0) completed successfully.
+08/09/20 23:54:05 Node word_count_ID0000001 job completed
+08/09/20 23:54:05 Running POST script of Node word_count_ID0000001...
+08/09/20 23:54:05 Warning: mysin has length 0 (ignore if produced by DAGMan; see gittrac #4987, #5031)
+08/09/20 23:54:05 DAG status: 0 (DAG_STATUS_OK)
+08/09/20 23:54:05 Of 19 nodes total:
+08/09/20 23:54:05  Done     Pre   Queued    Post   Ready   Un-Ready   Failed
+08/09/20 23:54:05   ===     ===      ===     ===     ===        ===      ===
+08/09/20 23:54:05     5       0        0       1       0         13        0
+08/09/20 23:54:05 0 job proc(s) currently held
+08/09/20 23:54:05 DAGMan Runtime Statistics: [ EventCycleTimeStd = 0.08554789501167424; EventCycleTimeMax = 0.2743229866027832; SubmitCycleTimeMin = 0.0004420280456542969; SubmitCycleTimeAvg = 0.04679003628817471; SleepCycleTimeCount = 10.0; SubmitCycleTimeCount = 11.0; SubmitCycleTimeMax = 0.2636351585388184; SleepCycleTimeMin = 4.312784910202026; SubmitCycleTimeSum = 0.5146903991699219; LogProcessCycleTimeStd = 0.01984619937747957; SubmitCycleTimeStd = 0.0889742462219015; LogProcessCycleTimeAvg = 0.02855965495109558; EventCycleTimeMin = 0.008836030960083008; LogProcessCycleTimeMax = 0.06892895698547363; LogProcessCycleTimeMin = 0.007676124572753906; LogProcessCycleTimeSum = 0.2284772396087646; LogProcessCycleTimeCount = 8.0; EventCycleTimeSum = 0.7922661304473877; SleepCycleTimeSum = 49.10564970970154; SleepCycleTimeAvg = 4.910564970970154; SleepCycleTimeStd = 0.2225188011786045; SleepCycleTimeMax = 5.01078200340271; EventCycleTimeCount = 10.0; EventCycleTimeAvg = 0.07922661304473877; ]
+08/09/20 23:54:06 Initializing user log writer for /home/scitech/shared-data/sample-text-analysis-wf/scitech/pegasus/harry-potter-text-analysis/run0004/./harry-potter-text-analysis-0.dag.nodes.log, (51.0.0)
+08/09/20 23:54:10 Currently monitoring 1 HTCondor log file(s)
+08/09/20 23:54:10 Event: ULOG_POST_SCRIPT_TERMINATED for HTCondor Node word_count_ID0000001 (51.0.0) {08/09/20 23:54:06}
+08/09/20 23:54:10 POST Script of node word_count_ID0000001 completed successfully.
+08/09/20 23:54:10 DAG status: 0 (DAG_STATUS_OK)
+08/09/20 23:54:10 Of 19 nodes total:
+08/09/20 23:54:10  Done     Pre   Queued    Post   Ready   Un-Ready   Failed
+08/09/20 23:54:10   ===     ===      ===     ===     ===        ===      ===
+08/09/20 23:54:10     6       0        0       0       3         10        0
+08/09/20 23:54:10 0 job proc(s) currently held
+08/09/20 23:54:10 DAGMan Runtime Statistics: [ EventCycleTimeStd = 0.0816257981342042; EventCycleTimeMax = 0.2743229866027832; SubmitCycleTimeMin = 0.0004420280456542969; SubmitCycleTimeAvg = 0.04299227396647135; SleepCycleTimeCount = 11.0; SubmitCycleTimeCount = 12.0; SubmitCycleTimeMax = 0.2636351585388184; SleepCycleTimeMin = 4.312784910202026; SubmitCycleTimeSum = 0.5159072875976562; LogProcessCycleTimeStd = 0.01954962679233324; SubmitCycleTimeStd = 0.08584764555972998; LogProcessCycleTimeAvg = 0.02651704682244195; EventCycleTimeMin = 0.008836030960083008; LogProcessCycleTimeMax = 0.06892895698547363; LogProcessCycleTimeMin = 0.007676124572753906; LogProcessCycleTimeSum = 0.2386534214019775; LogProcessCycleTimeCount = 9.0; EventCycleTimeSum = 0.8425462245941162; SleepCycleTimeSum = 53.49174571037292; SleepCycleTimeAvg = 4.862885973670266; SleepCycleTimeStd = 0.2637599473174765; SleepCycleTimeMax = 5.01078200340271; EventCycleTimeCount = 11.0; EventCycleTimeAvg = 0.07659511132673784; ]
+08/09/20 23:54:15 Submitting HTCondor Node clean_up_local_level_3_0 job(s)...
+08/09/20 23:54:15 Adding a DAGMan workflow log /home/scitech/shared-data/sample-text-analysis-wf/scitech/pegasus/harry-potter-text-analysis/run0004/./harry-potter-text-analysis-0.dag.nodes.log
+08/09/20 23:54:15 Masking the events recorded in the DAGMAN workflow log
+08/09/20 23:54:15 Mask for workflow log is 0,1,2,4,5,7,9,10,11,12,13,16,17,24,27,35,36
+08/09/20 23:54:15 submitting: /usr/bin/condor_submit -a dag_node_name' '=' 'clean_up_local_level_3_0 -a +DAGManJobId' '=' '45 -a DAGManJobId' '=' '45 -batch-name harry-potter-text-analysis-0.dag+45 -a submit_event_notes' '=' 'DAG' 'Node:' 'clean_up_local_level_3_0 -a dagman_log' '=' '/home/scitech/shared-data/sample-text-analysis-wf/scitech/pegasus/harry-potter-text-analysis/run0004/./harry-potter-text-analysis-0.dag.nodes.log -a +DAGManNodesMask' '=' '"0,1,2,4,5,7,9,10,11,12,13,16,17,24,27,35,36" -a priority=1000 -a +DAGNodeRetry' '=' '0 -a DAG_STATUS' '=' '0 -a FAILED_COUNT' '=' '0 -a +KeepClaimIdle' '=' '20 -a notification' '=' 'never -a +DAGParentNodeNames' '=' '"word_count_ID0000001" 00/00/clean_up_local_level_3_0.sub
+08/09/20 23:54:15 From submit: Submitting job(s).
+08/09/20 23:54:15 From submit: 1 job(s) submitted to cluster 52.
+08/09/20 23:54:15 	assigned HTCondor ID (52.0.0)
+08/09/20 23:54:15 Submitting HTCondor Node stage_out_local_local_0_0 job(s)...
+08/09/20 23:54:15 Adding a DAGMan workflow log /home/scitech/shared-data/sample-text-analysis-wf/scitech/pegasus/harry-potter-text-analysis/run0004/./harry-potter-text-analysis-0.dag.nodes.log
+08/09/20 23:54:15 Masking the events recorded in the DAGMAN workflow log
+08/09/20 23:54:15 Mask for workflow log is 0,1,2,4,5,7,9,10,11,12,13,16,17,24,27,35,36
+08/09/20 23:54:15 submitting: /usr/bin/condor_submit -a dag_node_name' '=' 'stage_out_local_local_0_0 -a +DAGManJobId' '=' '45 -a DAGManJobId' '=' '45 -batch-name harry-potter-text-analysis-0.dag+45 -a submit_event_notes' '=' 'DAG' 'Node:' 'stage_out_local_local_0_0 -a dagman_log' '=' '/home/scitech/shared-data/sample-text-analysis-wf/scitech/pegasus/harry-potter-text-analysis/run0004/./harry-potter-text-analysis-0.dag.nodes.log -a +DAGManNodesMask' '=' '"0,1,2,4,5,7,9,10,11,12,13,16,17,24,27,35,36" -a priority=900 -a +DAGNodeRetry' '=' '0 -a DAG_STATUS' '=' '0 -a FAILED_COUNT' '=' '0 -a +KeepClaimIdle' '=' '20 -a notification' '=' 'never -a +DAGParentNodeNames' '=' '"word_count_ID0000001" 00/00/stage_out_local_local_0_0.sub
+08/09/20 23:54:15 From submit: Submitting job(s).
+08/09/20 23:54:15 From submit: 1 job(s) submitted to cluster 53.
+08/09/20 23:54:15 	assigned HTCondor ID (53.0.0)
+08/09/20 23:54:15 Submitting HTCondor Node sort_ID0000002 job(s)...
+08/09/20 23:54:15 Adding a DAGMan workflow log /home/scitech/shared-data/sample-text-analysis-wf/scitech/pegasus/harry-potter-text-analysis/run0004/./harry-potter-text-analysis-0.dag.nodes.log
+08/09/20 23:54:15 Masking the events recorded in the DAGMAN workflow log
+08/09/20 23:54:15 Mask for workflow log is 0,1,2,4,5,7,9,10,11,12,13,16,17,24,27,35,36
+08/09/20 23:54:15 submitting: /usr/bin/condor_submit -a dag_node_name' '=' 'sort_ID0000002 -a +DAGManJobId' '=' '45 -a DAGManJobId' '=' '45 -batch-name harry-potter-text-analysis-0.dag+45 -a submit_event_notes' '=' 'DAG' 'Node:' 'sort_ID0000002 -a dagman_log' '=' '/home/scitech/shared-data/sample-text-analysis-wf/scitech/pegasus/harry-potter-text-analysis/run0004/./harry-potter-text-analysis-0.dag.nodes.log -a +DAGManNodesMask' '=' '"0,1,2,4,5,7,9,10,11,12,13,16,17,24,27,35,36" -a priority=30 -a +DAGNodeRetry' '=' '0 -a DAG_STATUS' '=' '0 -a FAILED_COUNT' '=' '0 -a +KeepClaimIdle' '=' '20 -a notification' '=' 'never -a +DAGParentNodeNames' '=' '"stage_in_remote_local_1_0,word_count_ID0000001" 00/00/sort_ID0000002.sub
+08/09/20 23:54:15 From submit: Submitting job(s).
+08/09/20 23:54:15 From submit: 1 job(s) submitted to cluster 54.
+08/09/20 23:54:15 	assigned HTCondor ID (54.0.0)
+08/09/20 23:54:15 Just submitted 3 jobs this cycle...
+08/09/20 23:54:15 DAG status: 0 (DAG_STATUS_OK)
+08/09/20 23:54:15 Of 19 nodes total:
+08/09/20 23:54:15  Done     Pre   Queued    Post   Ready   Un-Ready   Failed
+08/09/20 23:54:15   ===     ===      ===     ===     ===        ===      ===
+08/09/20 23:54:15     6       0        3       0       0         10        0
+08/09/20 23:54:15 0 job proc(s) currently held
+08/09/20 23:54:15 DAGMan Runtime Statistics: [ EventCycleTimeStd = 0.07942017775245071; EventCycleTimeMax = 0.2743229866027832; SubmitCycleTimeMin = 0.0004420280456542969; SubmitCycleTimeAvg = 0.05605554580688477; SleepCycleTimeCount = 12.0; SubmitCycleTimeCount = 13.0; SubmitCycleTimeMax = 0.2636351585388184; SleepCycleTimeMin = 4.312784910202026; SubmitCycleTimeSum = 0.728722095489502; LogProcessCycleTimeStd = 0.01954962679233324; SubmitCycleTimeStd = 0.09473175102765143; LogProcessCycleTimeAvg = 0.02651704682244195; EventCycleTimeMin = 0.008836030960083008; LogProcessCycleTimeMax = 0.06892895698547363; LogProcessCycleTimeMin = 0.007676124572753906; LogProcessCycleTimeSum = 0.2386534214019775; LogProcessCycleTimeCount = 9.0; EventCycleTimeSum = 0.8643143177032471; SleepCycleTimeSum = 58.50949954986572; SleepCycleTimeAvg = 4.875791629155477; SleepCycleTimeStd = 0.2554280689764793; SleepCycleTimeMax = 5.017753839492798; EventCycleTimeCount = 12.0; EventCycleTimeAvg = 0.07202619314193726; ]
+08/09/20 23:54:20 Currently monitoring 1 HTCondor log file(s)
+08/09/20 23:54:20 Reassigning the id of job clean_up_local_level_3_0 from (52.0.0) to (52.0.0)
+08/09/20 23:54:20 Event: ULOG_SUBMIT for HTCondor Node clean_up_local_level_3_0 (52.0.0) {08/09/20 23:54:15}
+08/09/20 23:54:20 Number of idle job procs: 1
+08/09/20 23:54:20 Reassigning the id of job stage_out_local_local_0_0 from (53.0.0) to (53.0.0)
+08/09/20 23:54:20 Event: ULOG_SUBMIT for HTCondor Node stage_out_local_local_0_0 (53.0.0) {08/09/20 23:54:15}
+08/09/20 23:54:20 Number of idle job procs: 2
+08/09/20 23:54:20 Reassigning the id of job sort_ID0000002 from (54.0.0) to (54.0.0)
+08/09/20 23:54:20 Event: ULOG_SUBMIT for HTCondor Node sort_ID0000002 (54.0.0) {08/09/20 23:54:15}
+08/09/20 23:54:20 Number of idle job procs: 3
+08/09/20 23:54:20 Event: ULOG_EXECUTE for HTCondor Node sort_ID0000002 (54.0.0) {08/09/20 23:54:17}
+08/09/20 23:54:20 Number of idle job procs: 2
+08/09/20 23:54:20 Event: ULOG_JOB_TERMINATED for HTCondor Node sort_ID0000002 (54.0.0) {08/09/20 23:54:19}
+08/09/20 23:54:20 Number of idle job procs: 2
+08/09/20 23:54:20 Node sort_ID0000002 job proc (54.0.0) failed with status 1.
+08/09/20 23:54:20 Node sort_ID0000002 job completed
+08/09/20 23:54:20 Running POST script of Node sort_ID0000002...
+08/09/20 23:54:20 Warning: mysin has length 0 (ignore if produced by DAGMan; see gittrac #4987, #5031)
+08/09/20 23:54:20 Event: ULOG_EXECUTE for HTCondor Node clean_up_local_level_3_0 (52.0.0) {08/09/20 23:54:20}
+08/09/20 23:54:20 Number of idle job procs: 1
+08/09/20 23:54:20 Event: ULOG_EXECUTE for HTCondor Node stage_out_local_local_0_0 (53.0.0) {08/09/20 23:54:20}
+08/09/20 23:54:20 Number of idle job procs: 0
+08/09/20 23:54:20 DAG status: 0 (DAG_STATUS_OK)
+08/09/20 23:54:20 Of 19 nodes total:
+08/09/20 23:54:20  Done     Pre   Queued    Post   Ready   Un-Ready   Failed
+08/09/20 23:54:20   ===     ===      ===     ===     ===        ===      ===
+08/09/20 23:54:20     6       0        2       1       0         10        0
+08/09/20 23:54:20 0 job proc(s) currently held
+08/09/20 23:54:20 DAGMan Runtime Statistics: [ EventCycleTimeStd = 0.0865177604869127; EventCycleTimeMax = 0.2743229866027832; SubmitCycleTimeMin = 0.0004420280456542969; SubmitCycleTimeAvg = 0.05223056248256138; SleepCycleTimeCount = 13.0; SubmitCycleTimeCount = 14.0; SubmitCycleTimeMax = 0.2636351585388184; SleepCycleTimeMin = 4.312784910202026; SubmitCycleTimeSum = 0.7312278747558594; LogProcessCycleTimeStd = 0.08506844661179724; SubmitCycleTimeStd = 0.09213368479705718; LogProcessCycleTimeAvg = 0.05277903079986572; EventCycleTimeMin = 0.008836030960083008; LogProcessCycleTimeMax = 0.2891368865966797; LogProcessCycleTimeMin = 0.007676124572753906; LogProcessCycleTimeSum = 0.5277903079986572; LogProcessCycleTimeCount = 10.0; EventCycleTimeSum = 1.08514928817749; SleepCycleTimeSum = 63.51557755470276; SleepCycleTimeAvg = 4.885813658054058; SleepCycleTimeStd = 0.2472089683678009; SleepCycleTimeMax = 5.017753839492798; EventCycleTimeCount = 13.0; EventCycleTimeAvg = 0.08347302216749924; ]
+08/09/20 23:54:22 Initializing user log writer for /home/scitech/shared-data/sample-text-analysis-wf/scitech/pegasus/harry-potter-text-analysis/run0004/./harry-potter-text-analysis-0.dag.nodes.log, (54.0.0)
+08/09/20 23:54:25 Currently monitoring 1 HTCondor log file(s)
+08/09/20 23:54:25 Event: ULOG_POST_SCRIPT_TERMINATED for HTCondor Node sort_ID0000002 (54.0.0) {08/09/20 23:54:22}
+08/09/20 23:54:25 POST Script of node sort_ID0000002 failed with status 1
+08/09/20 23:54:25 POST for Node sort_ID0000002 returned 1
+08/09/20 23:54:25 Retrying node sort_ID0000002 (retry #1 of 1)...
+08/09/20 23:54:25 Event: ULOG_JOB_TERMINATED for HTCondor Node stage_out_local_local_0_0 (53.0.0) {08/09/20 23:54:25}
+08/09/20 23:54:25 Number of idle job procs: 0
+08/09/20 23:54:25 Node stage_out_local_local_0_0 job proc (53.0.0) completed successfully.
+08/09/20 23:54:25 Node stage_out_local_local_0_0 job completed
+08/09/20 23:54:25 Running POST script of Node stage_out_local_local_0_0...
+08/09/20 23:54:25 Warning: mysin has length 0 (ignore if produced by DAGMan; see gittrac #4987, #5031)
+08/09/20 23:54:25 DAG status: 0 (DAG_STATUS_OK)
+08/09/20 23:54:25 Of 19 nodes total:
+08/09/20 23:54:25  Done     Pre   Queued    Post   Ready   Un-Ready   Failed
+08/09/20 23:54:25   ===     ===      ===     ===     ===        ===      ===
+08/09/20 23:54:25     6       0        1       1       1         10        0
+08/09/20 23:54:25 0 job proc(s) currently held
+08/09/20 23:54:25 DAGMan Runtime Statistics: [ EventCycleTimeStd = 0.1019833701636325; EventCycleTimeMax = 0.3045501708984375; SubmitCycleTimeMin = 0.0004420280456542969; SubmitCycleTimeAvg = 0.04880938529968262; SleepCycleTimeCount = 14.0; SubmitCycleTimeCount = 15.0; SubmitCycleTimeMax = 0.2636351585388184; SleepCycleTimeMin = 4.312784910202026; SubmitCycleTimeSum = 0.7321407794952393; LogProcessCycleTimeStd = 0.08126190017159711; SubmitCycleTimeStd = 0.08976554444065538; LogProcessCycleTimeAvg = 0.04991039362820712; EventCycleTimeMin = 0.008836030960083008; LogProcessCycleTimeMax = 0.2891368865966797; LogProcessCycleTimeMin = 0.007676124572753906; LogProcessCycleTimeSum = 0.5490143299102783; LogProcessCycleTimeCount = 11.0; EventCycleTimeSum = 1.389699459075928; SleepCycleTimeSum = 68.77560043334961; SleepCycleTimeAvg = 4.912542888096401; SleepCycleTimeStd = 0.2577084675085777; SleepCycleTimeMax = 5.260022878646851; EventCycleTimeCount = 14.0; EventCycleTimeAvg = 0.09926424707685198; ]
+08/09/20 23:54:26 Initializing user log writer for /home/scitech/shared-data/sample-text-analysis-wf/scitech/pegasus/harry-potter-text-analysis/run0004/./harry-potter-text-analysis-0.dag.nodes.log, (53.0.0)
+08/09/20 23:54:30 Reassigning the id of job sort_ID0000002 from (54.0.0) to (-1.-1.-1)
+08/09/20 23:54:30 Submitting HTCondor Node sort_ID0000002 job(s)...
+08/09/20 23:54:30 Adding a DAGMan workflow log /home/scitech/shared-data/sample-text-analysis-wf/scitech/pegasus/harry-potter-text-analysis/run0004/./harry-potter-text-analysis-0.dag.nodes.log
+08/09/20 23:54:30 Masking the events recorded in the DAGMAN workflow log
+08/09/20 23:54:30 Mask for workflow log is 0,1,2,4,5,7,9,10,11,12,13,16,17,24,27,35,36
+08/09/20 23:54:30 submitting: /usr/bin/condor_submit -a dag_node_name' '=' 'sort_ID0000002 -a +DAGManJobId' '=' '45 -a DAGManJobId' '=' '45 -batch-name harry-potter-text-analysis-0.dag+45 -a submit_event_notes' '=' 'DAG' 'Node:' 'sort_ID0000002 -a dagman_log' '=' '/home/scitech/shared-data/sample-text-analysis-wf/scitech/pegasus/harry-potter-text-analysis/run0004/./harry-potter-text-analysis-0.dag.nodes.log -a +DAGManNodesMask' '=' '"0,1,2,4,5,7,9,10,11,12,13,16,17,24,27,35,36" -a priority=30 -a +DAGNodeRetry' '=' '1 -a DAG_STATUS' '=' '0 -a FAILED_COUNT' '=' '0 -a +KeepClaimIdle' '=' '20 -a notification' '=' 'never -a +DAGParentNodeNames' '=' '"stage_in_remote_local_1_0,word_count_ID0000001" 00/00/sort_ID0000002.sub
+08/09/20 23:54:30 From submit: Submitting job(s).
+08/09/20 23:54:30 From submit: 1 job(s) submitted to cluster 55.
+08/09/20 23:54:30 	assigned HTCondor ID (55.0.0)
+08/09/20 23:54:30 Just submitted 1 job this cycle...
+08/09/20 23:54:30 Currently monitoring 1 HTCondor log file(s)
+08/09/20 23:54:30 Event: ULOG_POST_SCRIPT_TERMINATED for HTCondor Node stage_out_local_local_0_0 (53.0.0) {08/09/20 23:54:26}
+08/09/20 23:54:30 POST Script of node stage_out_local_local_0_0 completed successfully.
+08/09/20 23:54:30 Event: ULOG_JOB_TERMINATED for HTCondor Node clean_up_local_level_3_0 (52.0.0) {08/09/20 23:54:27}
+08/09/20 23:54:30 Number of idle job procs: 0
+08/09/20 23:54:30 Node clean_up_local_level_3_0 job proc (52.0.0) completed successfully.
+08/09/20 23:54:30 Node clean_up_local_level_3_0 job completed
+08/09/20 23:54:30 Running POST script of Node clean_up_local_level_3_0...
+08/09/20 23:54:30 Warning: mysin has length 0 (ignore if produced by DAGMan; see gittrac #4987, #5031)
+08/09/20 23:54:30 Reassigning the id of job sort_ID0000002 from (55.0.0) to (55.0.0)
+08/09/20 23:54:30 Event: ULOG_SUBMIT for HTCondor Node sort_ID0000002 (55.0.0) {08/09/20 23:54:30}
+08/09/20 23:54:30 Number of idle job procs: 1
+08/09/20 23:54:30 DAG status: 0 (DAG_STATUS_OK)
+08/09/20 23:54:30 Of 19 nodes total:
+08/09/20 23:54:30  Done     Pre   Queued    Post   Ready   Un-Ready   Failed
+08/09/20 23:54:30   ===     ===      ===     ===     ===        ===      ===
+08/09/20 23:54:30     7       0        1       1       1          9        0
+08/09/20 23:54:30 0 job proc(s) currently held
+08/09/20 23:54:30 DAGMan Runtime Statistics: [ EventCycleTimeStd = 0.09987938612338516; EventCycleTimeMax = 0.3045501708984375; SubmitCycleTimeMin = 0.0004420280456542969; SubmitCycleTimeAvg = 0.0505836009979248; SleepCycleTimeCount = 15.0; SubmitCycleTimeCount = 16.0; SubmitCycleTimeMax = 0.2636351585388184; SleepCycleTimeMin = 4.312784910202026; SubmitCycleTimeSum = 0.8093376159667969; LogProcessCycleTimeStd = 0.07774710701027532; SubmitCycleTimeStd = 0.0870116557267723; LogProcessCycleTimeAvg = 0.04805221160252889; EventCycleTimeMin = 0.008836030960083008; LogProcessCycleTimeMax = 0.2891368865966797; LogProcessCycleTimeMin = 0.007676124572753906; LogProcessCycleTimeSum = 0.5766265392303467; LogProcessCycleTimeCount = 12.0; EventCycleTimeSum = 1.419878482818604; SleepCycleTimeSum = 73.12609052658081; SleepCycleTimeAvg = 4.875072701772054; SleepCycleTimeStd = 0.2876283100264212; SleepCycleTimeMax = 5.260022878646851; EventCycleTimeCount = 15.0; EventCycleTimeAvg = 0.09465856552124023; ]
+08/09/20 23:54:31 Initializing user log writer for /home/scitech/shared-data/sample-text-analysis-wf/scitech/pegasus/harry-potter-text-analysis/run0004/./harry-potter-text-analysis-0.dag.nodes.log, (52.0.0)
+08/09/20 23:54:35 Submitting HTCondor Node register_local_0_0 job(s)...
+08/09/20 23:54:35 Adding a DAGMan workflow log /home/scitech/shared-data/sample-text-analysis-wf/scitech/pegasus/harry-potter-text-analysis/run0004/./harry-potter-text-analysis-0.dag.nodes.log
+08/09/20 23:54:35 Masking the events recorded in the DAGMAN workflow log
+08/09/20 23:54:35 Mask for workflow log is 0,1,2,4,5,7,9,10,11,12,13,16,17,24,27,35,36
+08/09/20 23:54:35 submitting: /usr/bin/condor_submit -a dag_node_name' '=' 'register_local_0_0 -a +DAGManJobId' '=' '45 -a DAGManJobId' '=' '45 -batch-name harry-potter-text-analysis-0.dag+45 -a submit_event_notes' '=' 'DAG' 'Node:' 'register_local_0_0 -a dagman_log' '=' '/home/scitech/shared-data/sample-text-analysis-wf/scitech/pegasus/harry-potter-text-analysis/run0004/./harry-potter-text-analysis-0.dag.nodes.log -a +DAGManNodesMask' '=' '"0,1,2,4,5,7,9,10,11,12,13,16,17,24,27,35,36" -a priority=40 -a +DAGNodeRetry' '=' '0 -a DAG_STATUS' '=' '0 -a FAILED_COUNT' '=' '0 -a notification' '=' 'never -a +DAGParentNodeNames' '=' '"stage_out_local_local_0_0" 00/00/register_local_0_0.sub
+08/09/20 23:54:35 From submit: Submitting job(s).
+08/09/20 23:54:35 From submit: 1 job(s) submitted to cluster 56.
+08/09/20 23:54:35 	assigned HTCondor ID (56.0.0)
+08/09/20 23:54:35 Just submitted 1 job this cycle...
+08/09/20 23:54:35 Currently monitoring 1 HTCondor log file(s)
+08/09/20 23:54:35 Event: ULOG_POST_SCRIPT_TERMINATED for HTCondor Node clean_up_local_level_3_0 (52.0.0) {08/09/20 23:54:31}
+08/09/20 23:54:35 POST Script of node clean_up_local_level_3_0 completed successfully.
+08/09/20 23:54:35 Event: ULOG_EXECUTE for HTCondor Node sort_ID0000002 (55.0.0) {08/09/20 23:54:32}
+08/09/20 23:54:35 Number of idle job procs: 0
+08/09/20 23:54:35 Event: ULOG_JOB_TERMINATED for HTCondor Node sort_ID0000002 (55.0.0) {08/09/20 23:54:34}
+08/09/20 23:54:35 Number of idle job procs: 0
+08/09/20 23:54:35 Node sort_ID0000002 job proc (55.0.0) failed with status 1.
+08/09/20 23:54:35 Node sort_ID0000002 job completed
+08/09/20 23:54:35 Running POST script of Node sort_ID0000002...
+08/09/20 23:54:35 Warning: mysin has length 0 (ignore if produced by DAGMan; see gittrac #4987, #5031)
+08/09/20 23:54:35 Reassigning the id of job register_local_0_0 from (56.0.0) to (56.0.0)
+08/09/20 23:54:35 Event: ULOG_SUBMIT for HTCondor Node register_local_0_0 (56.0.0) {08/09/20 23:54:35}
+08/09/20 23:54:35 Number of idle job procs: 1
+08/09/20 23:54:35 DAG status: 0 (DAG_STATUS_OK)
+08/09/20 23:54:35 Of 19 nodes total:
+08/09/20 23:54:35  Done     Pre   Queued    Post   Ready   Un-Ready   Failed
+08/09/20 23:54:35   ===     ===      ===     ===     ===        ===      ===
+08/09/20 23:54:35     8       0        1       1       0          9        0
+08/09/20 23:54:35 0 job proc(s) currently held
+08/09/20 23:54:35 DAGMan Runtime Statistics: [ EventCycleTimeStd = 0.09659142602404808; EventCycleTimeMax = 0.3045501708984375; SubmitCycleTimeMin = 0.0004420280456542969; SubmitCycleTimeAvg = 0.0520170856924618; SleepCycleTimeCount = 16.0; SubmitCycleTimeCount = 17.0; SubmitCycleTimeMax = 0.2636351585388184; SleepCycleTimeMin = 4.312784910202026; SubmitCycleTimeSum = 0.8842904567718506; LogProcessCycleTimeStd = 0.0747828643663965; SubmitCycleTimeStd = 0.08445573929624749; LogProcessCycleTimeAvg = 0.04606026869553786; EventCycleTimeMin = 0.008836030960083008; LogProcessCycleTimeMax = 0.2891368865966797; LogProcessCycleTimeMin = 0.007676124572753906; LogProcessCycleTimeSum = 0.5987834930419922; LogProcessCycleTimeCount = 13.0; EventCycleTimeSum = 1.532005310058594; SleepCycleTimeSum = 77.85443758964539; SleepCycleTimeAvg = 4.865902349352837; SleepCycleTimeStd = 0.2802859865018082; SleepCycleTimeMax = 5.260022878646851; EventCycleTimeCount = 16.0; EventCycleTimeAvg = 0.09575033187866211; ]
+08/09/20 23:54:35 Initializing user log writer for /home/scitech/shared-data/sample-text-analysis-wf/scitech/pegasus/harry-potter-text-analysis/run0004/./harry-potter-text-analysis-0.dag.nodes.log, (55.0.0)
+08/09/20 23:54:40 Currently monitoring 1 HTCondor log file(s)
+08/09/20 23:54:40 Event: ULOG_POST_SCRIPT_TERMINATED for HTCondor Node sort_ID0000002 (55.0.0) {08/09/20 23:54:35}
+08/09/20 23:54:40 POST Script of node sort_ID0000002 failed with status 1
+08/09/20 23:54:40 POST for Node sort_ID0000002 returned 1
+08/09/20 23:54:40 Event: ULOG_EXECUTE for HTCondor Node register_local_0_0 (56.0.0) {08/09/20 23:54:40}
+08/09/20 23:54:40 Number of idle job procs: 0
+08/09/20 23:54:40 DAG status: 2 (DAG_STATUS_NODE_FAILED)
+08/09/20 23:54:40 Of 19 nodes total:
+08/09/20 23:54:40  Done     Pre   Queued    Post   Ready   Un-Ready   Failed
+08/09/20 23:54:40   ===     ===      ===     ===     ===        ===      ===
+08/09/20 23:54:40     8       0        1       0       0          9        1
+08/09/20 23:54:40 0 job proc(s) currently held
+08/09/20 23:54:40 DAGMan Runtime Statistics: [ EventCycleTimeStd = 0.09356089187688878; EventCycleTimeMax = 0.3045501708984375; SubmitCycleTimeMin = 0.0004420280456542969; SubmitCycleTimeAvg = 0.04915897051493327; SleepCycleTimeCount = 17.0; SubmitCycleTimeCount = 18.0; SubmitCycleTimeMax = 0.2636351585388184; SleepCycleTimeMin = 4.312784910202026; SubmitCycleTimeSum = 0.8848614692687988; LogProcessCycleTimeStd = 0.07259184325819672; SubmitCycleTimeStd = 0.08282654094581368; LogProcessCycleTimeAvg = 0.04329196044376919; EventCycleTimeMin = 0.008836030960083008; LogProcessCycleTimeMax = 0.2891368865966797; LogProcessCycleTimeMin = 0.007303953170776367; LogProcessCycleTimeSum = 0.6060874462127686; LogProcessCycleTimeCount = 14.0; EventCycleTimeSum = 1.638551473617554; SleepCycleTimeSum = 83.26839351654053; SleepCycleTimeAvg = 4.898140795090619; SleepCycleTimeStd = 0.3021897005375276; SleepCycleTimeMax = 5.413955926895142; EventCycleTimeCount = 17.0; EventCycleTimeAvg = 0.09638538080103257; ]
+08/09/20 23:54:45 Currently monitoring 1 HTCondor log file(s)
+08/09/20 23:54:45 Event: ULOG_JOB_TERMINATED for HTCondor Node register_local_0_0 (56.0.0) {08/09/20 23:54:43}
+08/09/20 23:54:45 Number of idle job procs: 0
+08/09/20 23:54:45 Node register_local_0_0 job proc (56.0.0) completed successfully.
+08/09/20 23:54:45 Node register_local_0_0 job completed
+08/09/20 23:54:45 Running POST script of Node register_local_0_0...
+08/09/20 23:54:45 Warning: mysin has length 0 (ignore if produced by DAGMan; see gittrac #4987, #5031)
+08/09/20 23:54:45 DAG status: 2 (DAG_STATUS_NODE_FAILED)
+08/09/20 23:54:45 Of 19 nodes total:
+08/09/20 23:54:45  Done     Pre   Queued    Post   Ready   Un-Ready   Failed
+08/09/20 23:54:45   ===     ===      ===     ===     ===        ===      ===
+08/09/20 23:54:45     8       0        0       1       0          9        1
+08/09/20 23:54:45 0 job proc(s) currently held
+08/09/20 23:54:45 DAGMan Runtime Statistics: [ EventCycleTimeStd = 0.09277189793228716; EventCycleTimeMax = 0.3045501708984375; SubmitCycleTimeMin = 0.0004420280456542969; SubmitCycleTimeAvg = 0.04664165095279092; SleepCycleTimeCount = 18.0; SubmitCycleTimeCount = 19.0; SubmitCycleTimeMax = 0.2636351585388184; SleepCycleTimeMin = 4.312784910202026; SubmitCycleTimeSum = 0.8861913681030273; LogProcessCycleTimeStd = 0.0701573464350457; SubmitCycleTimeStd = 0.08123738503296045; LogProcessCycleTimeAvg = 0.04190449714660645; EventCycleTimeMin = 0.008836030960083008; LogProcessCycleTimeMax = 0.2891368865966797; LogProcessCycleTimeMin = 0.007303953170776367; LogProcessCycleTimeSum = 0.6285674571990967; LogProcessCycleTimeCount = 15.0; EventCycleTimeSum = 1.653559446334839; SleepCycleTimeSum = 88.27896738052368; SleepCycleTimeAvg = 4.90438707669576; SleepCycleTimeStd = 0.2943623965101008; SleepCycleTimeMax = 5.413955926895142; EventCycleTimeCount = 18.0; EventCycleTimeAvg = 0.09186441368526882; ]
+08/09/20 23:54:46 Initializing user log writer for /home/scitech/shared-data/sample-text-analysis-wf/scitech/pegasus/harry-potter-text-analysis/run0004/./harry-potter-text-analysis-0.dag.nodes.log, (56.0.0)
+08/09/20 23:54:50 Currently monitoring 1 HTCondor log file(s)
+08/09/20 23:54:50 Event: ULOG_POST_SCRIPT_TERMINATED for HTCondor Node register_local_0_0 (56.0.0) {08/09/20 23:54:46}
+08/09/20 23:54:50 POST Script of node register_local_0_0 completed successfully.
+08/09/20 23:54:50 DAG status: 2 (DAG_STATUS_NODE_FAILED)
+08/09/20 23:54:50 Of 19 nodes total:
+08/09/20 23:54:50  Done     Pre   Queued    Post   Ready   Un-Ready   Failed
+08/09/20 23:54:50   ===     ===      ===     ===     ===        ===      ===
+08/09/20 23:54:50     9       0        0       0       0          9        1
+08/09/20 23:54:50 0 job proc(s) currently held
+08/09/20 23:54:50 DAGMan Runtime Statistics: [ EventCycleTimeStd = 0.09106499350993653; EventCycleTimeMax = 0.3045501708984375; SubmitCycleTimeMin = 0.0004420280456542969; SubmitCycleTimeAvg = 0.04435951709747314; SleepCycleTimeCount = 19.0; SubmitCycleTimeCount = 20.0; SubmitCycleTimeMax = 0.2636351585388184; SleepCycleTimeMin = 4.312784910202026; SubmitCycleTimeSum = 0.8871903419494629; LogProcessCycleTimeStd = 0.06824997437265652; SubmitCycleTimeStd = 0.07972661193453726; LogProcessCycleTimeAvg = 0.03990226984024048; EventCycleTimeMin = 0.008836030960083008; LogProcessCycleTimeMax = 0.2891368865966797; LogProcessCycleTimeMin = 0.007303953170776367; LogProcessCycleTimeSum = 0.6384363174438477; LogProcessCycleTimeCount = 16.0; EventCycleTimeSum = 1.689542531967163; SleepCycleTimeSum = 92.59654331207275; SleepCycleTimeAvg = 4.873502279582777; SleepCycleTimeStd = 0.3161628030911989; SleepCycleTimeMax = 5.413955926895142; EventCycleTimeCount = 19.0; EventCycleTimeAvg = 0.08892329115616648; ]
+08/09/20 23:54:50 ERROR: the following job(s) failed:
+08/09/20 23:54:50 ---------------------- Job ----------------------
+08/09/20 23:54:50       Node Name: sort_ID0000002
+08/09/20 23:54:50            Noop: false
+08/09/20 23:54:50          NodeID: 6
+08/09/20 23:54:50     Node Status: STATUS_ERROR    
+08/09/20 23:54:50 Node return val: 1
+08/09/20 23:54:50           Error: Job exited with status 1 and POST Script failed with status 1 (after 1 node retries)
+08/09/20 23:54:50 Job Submit File: 00/00/sort_ID0000002.sub
+08/09/20 23:54:50     POST Script: /home/scitech/pegasus/dist/pegasus-5.0.0dev/bin/pegasus-exitcode  -s PegasusLite:+exitcode+0 -l harry-potter-text-analysis-0.exitcode.log -M harry-potter-text-analysis-0.cache.meta  .//00/00/sort_ID0000002.out
+08/09/20 23:54:50           Retry: 1
+08/09/20 23:54:50  HTCondor Job ID: (55.0.0)
+08/09/20 23:54:50       Q_PARENTS: stage_in_remote_local_1_0, word_count_ID0000001, <END>
+08/09/20 23:54:50       Q_WAITING: <END>
+08/09/20 23:54:50      Q_CHILDREN: plot_ID0000003, stage_out_local_local_1_0, clean_up_local_level_4_0, <END>
+08/09/20 23:54:50 ---------------------------------------	<END>
+08/09/20 23:54:50 Aborting DAG...
+08/09/20 23:54:50 Writing Rescue DAG to harry-potter-text-analysis-0.dag.rescue001...
+08/09/20 23:54:50 Removing submitted jobs...
+08/09/20 23:54:50 Removing any/all submitted HTCondor jobs...
+08/09/20 23:54:50 Running: /usr/bin/condor_rm -const DAGManJobId' '=?=' '45
+08/09/20 23:54:50 Note: 0 total job deferrals because of -MaxJobs limit (0)
+08/09/20 23:54:50 Note: 0 total job deferrals because of -MaxIdle limit (1000)
+08/09/20 23:54:50 Note: 0 total job deferrals because of node category throttles
+08/09/20 23:54:50 Note: 0 total PRE script deferrals because of -MaxPre limit (20) or DEFER
+08/09/20 23:54:50 Note: 0 total POST script deferrals because of -MaxPost limit (20) or DEFER
+08/09/20 23:54:50 DAG status: 2 (DAG_STATUS_NODE_FAILED)
+08/09/20 23:54:50 Of 19 nodes total:
+08/09/20 23:54:50  Done     Pre   Queued    Post   Ready   Un-Ready   Failed
+08/09/20 23:54:50   ===     ===      ===     ===     ===        ===      ===
+08/09/20 23:54:50     9       0        0       0       0          9        1
+08/09/20 23:54:50 0 job proc(s) currently held
+08/09/20 23:54:50 DAGMan Runtime Statistics: [ EventCycleTimeStd = 0.09106499350993653; EventCycleTimeMax = 0.3045501708984375; SubmitCycleTimeMin = 0.0004420280456542969; SubmitCycleTimeAvg = 0.04435951709747314; SleepCycleTimeCount = 19.0; SubmitCycleTimeCount = 20.0; SubmitCycleTimeMax = 0.2636351585388184; SleepCycleTimeMin = 4.312784910202026; SubmitCycleTimeSum = 0.8871903419494629; LogProcessCycleTimeStd = 0.06824997437265652; SubmitCycleTimeStd = 0.07972661193453726; LogProcessCycleTimeAvg = 0.03990226984024048; EventCycleTimeMin = 0.008836030960083008; LogProcessCycleTimeMax = 0.2891368865966797; LogProcessCycleTimeMin = 0.007303953170776367; LogProcessCycleTimeSum = 0.6384363174438477; LogProcessCycleTimeCount = 16.0; EventCycleTimeSum = 1.689542531967163; SleepCycleTimeSum = 92.59654331207275; SleepCycleTimeAvg = 4.873502279582777; SleepCycleTimeStd = 0.3161628030911989; SleepCycleTimeMax = 5.413955926895142; EventCycleTimeCount = 19.0; EventCycleTimeAvg = 0.08892329115616648; ]
+08/09/20 23:54:50 Wrote metrics file harry-potter-text-analysis-0.dag.metrics.
+08/09/20 23:54:50 Reporting metrics to Pegasus metrics server(s); output is in harry-potter-text-analysis-0.dag.metrics.out.
+08/09/20 23:54:50 Running command </usr/libexec/condor/condor_dagman_metrics_reporter -f harry-potter-text-analysis-0.dag.metrics -t 100>
+08/09/20 23:54:50 Warning: mysin has length 0 (ignore if produced by DAGMan; see gittrac #4987, #5031)
+08/09/20 23:54:50 DAGMan Runtime Statistics: [ EventCycleTimeStd = 0.09106499350993653; EventCycleTimeMax = 0.3045501708984375; SubmitCycleTimeMin = 0.0004420280456542969; SubmitCycleTimeAvg = 0.04435951709747314; SleepCycleTimeCount = 19.0; SubmitCycleTimeCount = 20.0; SubmitCycleTimeMax = 0.2636351585388184; SleepCycleTimeMin = 4.312784910202026; SubmitCycleTimeSum = 0.8871903419494629; LogProcessCycleTimeStd = 0.06824997437265652; SubmitCycleTimeStd = 0.07972661193453726; LogProcessCycleTimeAvg = 0.03990226984024048; EventCycleTimeMin = 0.008836030960083008; LogProcessCycleTimeMax = 0.2891368865966797; LogProcessCycleTimeMin = 0.007303953170776367; LogProcessCycleTimeSum = 0.6384363174438477; LogProcessCycleTimeCount = 16.0; EventCycleTimeSum = 1.689542531967163; SleepCycleTimeSum = 92.59654331207275; SleepCycleTimeAvg = 4.873502279582777; SleepCycleTimeStd = 0.3161628030911989; SleepCycleTimeMax = 5.413955926895142; EventCycleTimeCount = 19.0; EventCycleTimeAvg = 0.08892329115616648; ]
+08/09/20 23:54:50 **** condor_scheduniv_exec.45.0 (condor_DAGMAN) pid 47771 EXITING WITH STATUS 1
